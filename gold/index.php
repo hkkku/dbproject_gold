@@ -173,34 +173,47 @@
              }
             ?> 
           </div>
-          <!-- end of menbox -->
+          <!-- end of web project -->
           <div class="fashionBox women">
             <div class="fashionTxt">
-              <h2><em>WOMEN</em> FASHION</h2>
+              <h2><em>APP</em> PROJECTS</h2>
               <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
               </p>
-              <a href="#">view more</a>
+              <a href="/gold/pages/app/app.php">view more</a>
             </div>
-            <div class="fashionImg">
-              <div>
-                <img src="img/product-type-1.jpg" alt="" />
+
+            <?php
+              // include $_SERVER['DOCUMENT_ROOT'].'/gold/php_process/connect/db_connect.php';
+              $sql = "select * from gold_app order by GOLD_APP_num desc limit 3";
+              $app_result = mysqli_query($dbConn, $sql);
+              
+              while ($app_row = mysqli_fetch_array($app_result)){
+                $app_num = $app_row['GOLD_APP_num'];
+                $app_thumb = $app_row['GOLD_APP_thumb'];
+                $app_title = $app_row['GOLD_APP_tit'];
+                $app_desc = $app_row['GOLD_APP_des'];
+            ?>
+
+              <div class="fashionImg">
+                <div>
+                  <img src="/gold/data/app_page/app_thumb/<?=$app_thumb?>" alt="" />
+                  <h2><?=$app_title?></h2>
+                  <em class="cutTxt"><?=$app_desc?></em>
+                  <a href="/gold/pages/app/app_detail.php?num=<?=$app_num?>">View Details</a>
+                </div>
               </div>
-            </div>
-            <div class="fashionImg">
-              <div>
-                <img src="img/women-2.jpg" alt="" />
-              </div>
-            </div>
-            <div class="fashionImg">
-              <div>
-                <img src="img/product-type-2.jpg" alt="" />
-              </div>
-            </div>
+              <!-- app box loop end -->
+
+            <?php
+             }
+            ?> 
+
           </div>
+          <!-- end of app project -->
         </div>
       </section>
-      <!-- ours section end-->
+      <!-- preview section end-->
       
       <?php include $_SERVER["DOCUMENT_ROOT"]."/gold/include/about.php"?>
 

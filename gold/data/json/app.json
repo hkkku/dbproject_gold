@@ -1,5 +1,45 @@
 [
     {
+        "appnum": "9",
+        "apptitle": "Medicine Reminder",
+        "appserial": "GOLDAPP0108",
+        "appdesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non magna in nulla ullamcorper imperdiet quis vitae eros. Aliquam risus ante, mollis id ante nec, efficitur facilisis nisi. Ut a metus tellus. Sed egestas egestas orci quis sollicitudin. Curabitur sem ipsum, ultrices ac lectus vel, suscipit viverra erat. Donec efficitur, nisi eget hendrerit tempus, nisl sem venenatis libero, eu luctus leo purus eget lectus. Pellentesque aliquam arcu et rhoncus ornare. Praesent tincidunt venenatis dapibus. Etiam aliquet nisl arcu. <br \/>\r\n<br \/>\r\nClass aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam et consequat dui. Nullam ac mi metus. Etiam et ex ut lectus commodo sodales.",
+        "appimg": "app_main_008.jpg",
+        "appthumb": "app_008.jpg",
+        "appclient": "Gusri",
+        "appregist": "2021-01-20"
+    },
+    {
+        "appnum": "8",
+        "apptitle": "Dimest",
+        "appserial": "GOLDAPP0107",
+        "appdesc": "Maecenas interdum commodo consectetur. Pellentesque et massa dictum, pellentesque eros sit amet, pellentesque arcu. Nam mollis quam et magna scelerisque malesuada. Ut tristique, eros vitae porttitor faucibus, felis odio lobortis quam, vitae molestie massa justo quis leo. Maecenas convallis elit ut libero pellentesque tempus. Quisque volutpat aliquam erat, eu tristique enim viverra ut. Nullam ac sem eget ipsum imperdiet lacinia. Nam gravida est eu diam tincidunt sollicitudin. Etiam pellentesque nulla nec tempus commodo. Nullam semper libero massa, sit amet tempus tortor volutpat in. Vestibulum quis mattis nisi. <br \/>\r\n<br \/>\r\nFusce in elit in tortor placerat rutrum et at odio. Phasellus dui lectus, maximus eget eros ac, pretium dapibus nulla. Etiam vehicula felis eget placerat semper.",
+        "appimg": "app_main_007.png",
+        "appthumb": "app_007.png",
+        "appclient": "hm card",
+        "appregist": "2021-01-20"
+    },
+    {
+        "appnum": "7",
+        "apptitle": "Plants",
+        "appserial": "GOLDAPP0106",
+        "appdesc": "Vestibulum quam dui, suscipit id dolor vel, dictum vestibulum nulla. Ut id tristique diam. Vivamus congue laoreet varius. Donec ac varius urna. Nunc et congue erat. Mauris cursus bibendum arcu, ac euismod lacus hendrerit sit amet. Sed ut convallis tellus, ultrices rhoncus enim. Nunc vitae leo ligula. Praesent vitae tempor ligula. Phasellus sollicitudin, sapien in eleifend tristique, quam dui vehicula mi, non condimentum justo augue quis est. Phasellus ut tempus arcu. Sed pretium vulputate tortor eu porta. <br \/>\r\n<br \/>\r\nNullam tempor placerat felis et vehicula. Sed gravida eros sed sagittis suscipit. Sed quis efficitur urna. Morbi suscipit neque eget libero mattis aliquet.",
+        "appimg": "app_main_006.png",
+        "appthumb": "app_006.png",
+        "appclient": "plant opp",
+        "appregist": "2021-01-20"
+    },
+    {
+        "appnum": "6",
+        "apptitle": "AudioBooks",
+        "appserial": "GOLDAPP0105",
+        "appdesc": "Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc ultrices euismod tellus, sit amet auctor sapien accumsan in. Nam semper mauris a metus tempus consequat. Nam nec quam aliquet, cursus risus non, suscipit nulla. In et orci ultrices, aliquam erat a, faucibus magna. Suspendisse lectus enim, faucibus quis egestas nec, luctus in sapien. Pellentesque cursus consequat velit, at facilisis orci bibendum in. Vivamus vehicula orci ex, non semper enim malesuada ac. <br \/>\r\n<br \/>\r\nVivamus tristique metus velit, at tincidunt est pharetra at. Phasellus rhoncus ipsum at velit rhoncus placerat quis ut felis. Aenean id arcu justo.",
+        "appimg": "app_main_005.png",
+        "appthumb": "app_005.png",
+        "appclient": "Optimist",
+        "appregist": "2021-01-20"
+    },
+    {
         "appnum": "5",
         "apptitle": "Beranda",
         "appserial": "GOLDAPP0104",
