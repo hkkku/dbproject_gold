@@ -1,0 +1,42 @@
+[
+    {
+        "appnum": "5",
+        "apptitle": "Beranda",
+        "appserial": "GOLDAPP0104",
+        "appdesc": "Donec posuere faucibus iaculis. Quisque facilisis lacinia orci sit amet sagittis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras non pellentesque tellus. Integer porttitor, ex vitae aliquet pharetra, ligula eros tempor nulla, at laoreet nulla diam eu urna. Nulla congue dui in justo mattis, quis lobortis arcu accumsan. Donec ultrices posuere tellus, vel viverra risus vestibulum non. <br \/>\r\n<br \/>\r\nCurabitur suscipit tellus eu est aliquam, sed condimentum libero rutrum.",
+        "appimg": "app_main_004.png",
+        "appthumb": "app_004.png",
+        "appclient": "Beranda co",
+        "appregist": "2021-01-19"
+    },
+    {
+        "appnum": "4",
+        "apptitle": "Store",
+        "appserial": "GOLDAPP0103",
+        "appdesc": "Proin lobortis porttitor urna ac egestas. Praesent a malesuada odio, a posuere odio. Donec in auctor neque. Vestibulum eget commodo lorem. Maecenas dignissim justo vel imperdiet consectetur. In hac habitasse platea dictumst. Mauris viverra sapien eu pharetra blandit. Phasellus ultricies, erat quis laoreet tincidunt, eros lorem vestibulum lacus, a tincidunt nulla odio id libero. Proin ultricies quis tellus non tincidunt. <br \/>\r\n<br \/>\r\nSed accumsan accumsan commodo. Sed sed porttitor massa. Fusce dapibus massa purus, ac elementum justo dapibus suscipit. Phasellus et mi placerat, ullamcorper velit et, facilisis nibh. In eu mi sed velit dapibus blandit.",
+        "appimg": "app_main_003.png",
+        "appthumb": "app_003.png",
+        "appclient": "plant store",
+        "appregist": "2021-01-19"
+    },
+    {
+        "appnum": "3",
+        "apptitle": "Portfolio",
+        "appserial": "GOLDAPP0102",
+        "appdesc": "Praesent placerat fermentum libero sed venenatis. Aliquam commodo facilisis vehicula. Curabitur non risus hendrerit, porta magna non, aliquet nibh. Mauris efficitur mauris at consectetur dignissim. Integer gravida tortor neque, ac rhoncus ex laoreet eu. Sed luctus nisi ipsum, vel semper nunc luctus sed. Donec sed risus quam. Pellentesque efficitur leo ut eleifend faucibus. Vivamus ac ultrices augue. Curabitur sed dui maximus, eleifend sem eu, sollicitudin massa. Fusce in felis erat. Cras eu porttitor neque. Etiam finibus odio a turpis sodales, at vehicula tellus pulvinar.<br \/>\r\n<br \/>\r\n Vivamus blandit tellus nec massa interdum feugiat eget vitae orci. Nam sollicitudin aliquam risus sed eleifend. Vestibulum vel quam volutpat, dictum orci vel, convallis sapien.",
+        "appimg": "app_main_002.jpg",
+        "appthumb": "app_002.jpg",
+        "appclient": "folio",
+        "appregist": "2021-01-19"
+    },
+    {
+        "appnum": "2",
+        "apptitle": "Tesla Model  X",
+        "appserial": "GOLDAPP0101",
+        "appdesc": "Etiam non egestas risus. Suspendisse at dapibus nibh, id bibendum erat. Praesent malesuada egestas justo vitae lobortis. Curabitur consequat finibus est vitae pellentesque. Morbi laoreet porta quam, eu condimentum nisl mollis non. Donec eros nisl, tristique id efficitur vitae, mollis quis nulla. Suspendisse potenti. Nullam sit amet condimentum quam. Sed elementum felis vitae leo commodo, ut sollicitudin magna posuere. Suspendisse volutpat mauris non sem pellentesque egestas. Donec varius massa neque, vel aliquam nisl ullamcorper eget. In hac habitasse platea dictumst.<br \/>\r\n<br \/>\r\n Vestibulum in dui id ligula malesuada posuere nec eget nibh. Vivamus ex nunc, ornare quis congue at, consequat a enim. Suspendisse quam risus, sagittis sit amet blandit ac, pellentesque hendrerit turpis. Aliquam a fringilla ex, vel lacinia justo.",
+        "appimg": "app_main_001.png",
+        "appthumb": "app_001.png",
+        "appclient": "Tesla",
+        "appregist": "2021-01-19"
+    }
+]

@@ -1,0 +1,118 @@
+/* design page box style */
+.deWeBoxes{width: 100%; height: auto; overflow: hidden;}
+.deWeBoxes .deWeBox{width: 25%; height: auto; float: left; padding: 5px; } 
+
+.deWeBoxes .deWeBox>div{width: 100%; height: 100%; border: 1px solid #D0AF51; padding: 5px; position: relative;}
+.deWeBoxes .deWeBox .boxOverlay{position: absolute; width: 100%; height: 100%; top: 0; left: 0; background: rgba(208, 175, 81, 0.7); display: flex; justify-content: center; align-items: center; border: 1px solid #fff; opacity: 0; visibility: hidden; transition: all 0.4s;}
+.deWeBoxes .boxOverlay i.fa{color: #fff; font-size: 25px; width: 50px; height: 50px; border: 1px solid #fff; border-radius: 50%; display: flex; justify-content: center; align-items: center;}
+
+.deWeBox:hover>div .boxOverlay{opacity: 1; visibility: visible;}
+
+.deWeBoxes .deWeBox .deWeImg{width: 100%; height: auto; overflow: hidden; position: relative; display: flex; align-items: center; justify-content: center;}
+.deWeBoxes .deWeBox .deWeImg img{width: 100%;}
+
+.deWeBoxes .deWeBox .deWeTxt{width: 100%; height: auto;  display: flex; align-items: center; justify-content: center;  text-align: center; flex-direction: column; padding: 15px 0;}
+.deWeBoxes .deWeBox .deWeTxt h2{color: #D0AF51; font-weight: 400; margin-bottom: 10px;}
+.deWeBoxes .deWeBox .deWeTxt em{font-style: normal; line-height: 1.4; font-weight: 300;}
+
+/* buttons style */
+.btns{width: 100%; height: auto; margin: 0; justify-content: center; display: flex; transition: all 0.3s;}
+.design .btns a.commonBtn{margin-right: 1px;}
+
+.design .commonBtn:hover {background: #D0AF51; color: #fff;}
+
+/*-------------------------------------------------------------*/
+/* design detail page style */
+/*-------------------------------------------------------------*/
+
+/* design detail left box style */
+.deWeLeft {width: 60%; height: auto; float: left;}
+.deWeDetail .title{float: none; margin-bottom: 50px;}
+.deWeDetail .title a{width: 30%;}
+
+.deWeDetail .title:hover .line{width: 20%;}
+
+.detailCon{width: 100%; height: auto; padding-right: 25%;}
+.detailCon .detailImg1{width: 100%; height: auto;}
+.detailCon .detailImg1 .imgBox{width: 80%; height: auto; padding: 10px; border: 1px solid #D0AF51;}
+.detailCon .detailImg1>.imgBox>img{width: 100%;}
+
+.deWeLeft .imgNav{width: 100%; height: auto; padding: 10px 0;}
+.deWeLeft .imgNav>a{width: 50px; height: 50px; display: inline-block; overflow: hidden; _padding: 5px; border: 5px solid #fff; _outline: 1px solid #D0AF51; position: relative;}
+.deWeLeft .imgNav>a>img{height: 100%; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
+.deWeLeft .imgNav a .dotOverlay{position: absolute; left: 0; top: 0; width: 100%; height: 100%; z-index: 1; background: rgba(208, 175, 81, 0.5);}
+
+.deWeLeft .imgNav a.active{outline: 1px solid #D0AF51;}
+.deWeLeft .imgNav a.active .dotOverlay{display: none;}
+
+.detailInfo{width: 100%; height: auto; padding: 5px 0 10px 0; font-size: 12px; font-weight: 600; color: #D0AF51;}
+.detailDesc p{color: #838383; font-weight: 300; line-height: 1.6;}
+.detailDesc a{display: flex; width: 100%; align-items: center; padding: 10px 0; color: #D0AF51;}
+.detailDesc i.fa{width: 25px; height: 25px; border: 1px solid #D0AF51; border-radius: 50%; display: flex; justify-content: center; align-items: center; background: #D0AF51; color: #fff; margin-right: 10px;}
+
+/* design & web detail right box style */
+.deWeRight {width: 40%; height: auto; float: right; padding-left: 5%;}
+.deWeRight .detailWeb{width: 100%; height: auto; margin-bottom: 20px;}
+.deWeRight .webTit{width: 100%; height: auto; padding: 0 0 10px 0; border-bottom: 1px solid #D0AF51; display: flex; justify-content: space-between; align-items: baseline;}
+.deWeRight .webTit h2{font-size: 22px; font-weight: 600; text-transform: uppercase; letter-spacing: -1px;}
+.deWeRight .webTit a{color: #D0AF51;}
+.deWeRight .webTit a:hover{text-decoration: underline;}
+
+.deWeRight .detailWeb .webLinks,
+.deWeRight .detailApp .appLinks{width: 100%; height: auto; display: flex;padding: 10px 0; border-bottom: 1px dotted #ddd;}
+.deWeRight .detailWeb .webLinks .subWebImg,
+.deWeRight .detailApp .appLinks .subAppImg{width: 40%; height: auto; overflow: hidden; _background: url(/gold/img/new-arrival-3.jpg) no-repeat center center; background-size: cover;}
+.deWeRight .detailWeb .webLinks .subWebImg img,
+.deWeRight .detailApp .appLinks .subAppImg img{width: 100%;}
+.deWeRight .detailWeb .webLinks .subWebTxt,
+.deWeRight .detailApp .appLinks .subAppTxt{width: 60%; padding-left: 10px; display: flex; flex-direction: column; justify-content: center;}
+.deWeRight .detailWeb .webLinks .subWebTxt a,
+.deWeRight .detailApp .appLinks .subAppTxt a{font-weight: 600; font-size: 16px; color: #D0AF51;}
+.deWeRight .detailWeb .webLinks .subWebTxt a:hover,
+.deWeRight .detailApp .appLinks .subAppTxt a:hover{text-decoration: underline;}
+.deWeRight .detailWeb .webLinks .subWebTxt em,
+.deWeRight .detailApp .appLinks .subAppTxt em{color: #838383; font-weight: 300; font-style: normal;}
+
+/*-------------------------------------------------------------*/
+/* web page style */
+/*-------------------------------------------------------------*/
+
+.deWeBoxes .webBox{width: 33.33%;}
+
+.web .webBoxBtns{width: 100%; height: auto; display: flex; justify-content: space-between; margin-top: 10px;}
+.web .webBoxBtns a{display: inline-block; text-align: center; width: 49%; padding: 10px 0; border: 1px solid #D0AF51; color: #D0AF51; transition: all 0.4s;}
+.web .webBoxBtns a:nth-child(1),
+.web .webBoxBtns a:hover{background: #D0AF51; color: #fff;}
+
+/*-------------------------------------------------------------*/
+/* web detail page style */
+/*-------------------------------------------------------------*/
+
+.webDetail .webTabBtns button{width: 100px; text-align: center; background: #fff; border: 1px solid #D0AF51; padding: 10px 0; color: #D0AF51; transition: all 0.3s;}
+.webDetail .webTabBtns button:hover,
+.webDetail .webTabBtns button.active{color: #fff; background: #D0AF51;}
+
+/* pc frame style */
+.webDetail .webBox{width: 100%; height: 450px; margin-top: 20px; position: relative; _display: none}
+.webDetail .webBox .webPcFrame{width: 100%; height: 100%;}
+.webDetail .webBox .webPcFrame img{width: 100%; position: absolute; top: 0; left: 0;}
+.webDetail .webBox .webPcFrame .webMainImg{width: 100%; height: 75%; position: relative; overflow: hidden;}
+.webDetail .webBox .webPcFrame .webMainImg img{width: 92%; left: 50%; transform: translateX(-50%);}
+
+/* mobile frame style */
+.webDetail .webBox_m{width: 100%; height: 600px; margin-top: 20px; position: relative;}
+.webDetail .webBox_m .webMobileFrame{width: 98%; height: 100%;}
+.webDetail .webBox_m .webMobileFrame img{width: 100%; position: absolute; top: 0; left: 0;}
+.webDetail .webBox_m .webMobileFrame .webMainImg_m{width: 43%; height: 100%; position: relative; overflow: hidden; margin: auto; top: 10px;}
+.webDetail .webBox_m .webMobileFrame .webMainImg_m img{top: 0; left: 0;}
+
+/*-------------------------------------------------------------*/
+/* app page style */
+/*-------------------------------------------------------------*/
+.appBoxes .appBox,
+.appBoxes .appBox-sizer{width: 25%;}
+.appBoxes .appBox{padding: 5px;}
+.appBoxes .appBox>div{padding: 5px; border: 1px solid #D0AF51; display: flex; flex-direction: column; text-align: center;}
+.appBoxes .appBox>div h2{color: #D0AF51; font-weight: 600; padding: 5px 0;}
+.appBoxes .appBox>div a{width: 100%; text-align: center; padding: 10px 0; border: 1px solid #D0AF51; color: #fff; background: #D0AF51; transition: all 0.3s;}
+.appBoxes .appBox img{width: 100%;}
