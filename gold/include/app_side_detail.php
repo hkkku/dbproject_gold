@@ -1,38 +1,32 @@
             <div class="detailApp">
-              <div class="webTit">
+              <div class="appTit">
                 <h2>Recent App Services</h2>
-                <a href="/gold/pages/design/design.php">View All</a>
+                <a href="/gold/pages/app/app.php">View All</a>
               </div>
-              <!-- web title end -->
-              <div class="appLinks">
-                <div class="subAppImg">
-                  <!-- <img src="/gold/img/new-arrival-3.jpg" alt=""> -->
+              <!-- app title end -->
+              <?php
+                include $_SERVER['DOCUMENT_ROOT'].'/gold/php_process/connect/db_connect.php';
+                $sql = "select * from gold_app order by GOLD_APP_num desc limit 3";
+                $app_side_result = mysqli_query($dbConn, $sql);
+                
+                while ($app_side_row = mysqli_fetch_array($app_side_result)){
+                  $app_side_num = $app_side_row['GOLD_APP_num'];
+                  $app_side_thumb = $app_side_row['GOLD_APP_thumb'];
+                  $app_side_title = $app_side_row['GOLD_APP_tit'];
+                  $app_side_desc = $app_side_row['GOLD_APP_des'];
+              ?>         
+                <div class="appLinks">
+                  <div class="subAppImg">
+                    <img src="/gold/data/app_page/app_thumb/<?=$app_side_thumb?>" alt="">
+                  </div>
+                  <div class="subAppTxt">
+                    <a href="/gold/pages/app/app_detail.php?num=<?=$app_side_num?>"><?=$app_side_title?></a>
+                    <em><?=$app_side_desc?></em>
+                  </div>
                 </div>
-                <div class="subAppTxt">
-                  <a href="#">Solitude Int</a>
-                  <em>Vestibulum tempus arcu lacus, ut cursus tellus blandit eu. Donec sit amet augue condimentum, pretium justo quis, egestas nunc. Ut sagittis lobortis ante varius ullamcorper. Donec auctor vitae erat eu tempus. Sed viverra, augue ac rutrum feugiat, ex mi rutrum eros, vitae dictum metus est vitae augue. Curabitur porta vehicula sem, vel vehicula purus viverra at. Sed eget arcu id sem fermentum rutrum.</em>
-                </div>
-              </div>
-              <!-- app links loop end -->
-              <div class="appLinks">
-                <div class="subAppImg">
-                  <!-- <img src="/gold/img/new-arrival-3.jpg" alt=""> -->
-                </div>
-                <div class="subAppTxt">
-                  <a href="#">Pointex</a>
-                  <em>Vestibulum tempus arcu lacus, ut cursus tellus blandit eu. Donec sit amet augue condimentum, pretium justo quis, egestas nunc. Ut sagittis lobortis ante varius ullamcorper. Donec auctor vitae erat eu tempus. Sed viverra, augue ac rutrum feugiat, ex mi rutrum eros, vitae dictum metus est vitae augue. Curabitur porta vehicula sem, vel vehicula purus viverra at. Sed eget arcu id sem fermentum rutrum.</em>
-                </div>
-              </div>
-              <!-- app links loop end -->
-              <div class="appLinks">
-                <div class="subAppImg">
-                  <!-- <img src="/gold/img/new-arrival-3.jpg" alt=""> -->
-                </div>
-                <div class="subAppTxt">
-                  <a href="#">Goldteg</a>
-                  <em>Vestibulum tempus arcu lacus, ut cursus tellus blandit eu. Donec sit amet augue condimentum, pretium justo quis, egestas nunc. Ut sagittis lobortis ante varius ullamcorper. Donec auctor vitae erat eu tempus. Sed viverra, augue ac rutrum feugiat, ex mi rutrum eros, vitae dictum metus est vitae augue. Curabitur porta vehicula sem, vel vehicula purus viverra at. Sed eget arcu id sem fermentum rutrum.</em>
-                </div>
-              </div>
-              <!-- app links loop end -->
+                <!-- app links loop end -->
+              <?php
+                }
+              ?>  
             </div>
             <!-- detailapp end -->

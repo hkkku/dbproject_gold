@@ -53,10 +53,14 @@
 /* design & web detail right box style */
 .deWeRight {width: 40%; height: auto; float: right; padding-left: 5%;}
 .deWeRight .detailWeb{width: 100%; height: auto; margin-bottom: 20px;}
-.deWeRight .webTit{width: 100%; height: auto; padding: 0 0 10px 0; border-bottom: 1px solid #D0AF51; display: flex; justify-content: space-between; align-items: baseline;}
-.deWeRight .webTit h2{font-size: 22px; font-weight: 600; text-transform: uppercase; letter-spacing: -1px;}
-.deWeRight .webTit a{color: #D0AF51;}
-.deWeRight .webTit a:hover{text-decoration: underline;}
+.deWeRight .webTit,
+.deWeRight .appTit{width: 100%; height: auto; padding: 0 0 10px 0; border-bottom: 1px solid #D0AF51; display: flex; justify-content: space-between; align-items: baseline;}
+.deWeRight .webTit h2,
+.deWeRight .appTit h2{font-size: 22px; font-weight: 600; text-transform: uppercase; letter-spacing: -1px;}
+.deWeRight .webTit a,
+.deWeRight .appTit a{color: #D0AF51;}
+.deWeRight .webTit a:hover,
+.deWeRight .appTit a:hover{text-decoration: underline;}
 
 .deWeRight .detailWeb .webLinks,
 .deWeRight .detailApp .appLinks{width: 100%; height: auto; display: flex;padding: 10px 0; border-bottom: 1px dotted #ddd;}
@@ -116,3 +120,13 @@
 .appBoxes .appBox>div h2{color: #D0AF51; font-weight: 600; padding: 5px 0;}
 .appBoxes .appBox>div a{width: 100%; text-align: center; padding: 10px 0; border: 1px solid #D0AF51; color: #fff; background: #D0AF51; transition: all 0.3s;}
 .appBoxes .appBox img{width: 100%;}
+
+/*-------------------------------------------------------------*/
+/* app detail page style */
+/*-------------------------------------------------------------*/
+.appFrameBox{width: 50%; position: relative; overflow: hidden; height: 510px;}
+.appFrameBox>.appImgBox{width: 100%; height: 100%; position: absolute; top: 0; left: 0; overflow: hidden;}
+.appFrameBox>.appImgBox img{width: 100%;}
+#appMain>li{width: 95%;}
+#appMain>li>img{width: 98%;}
+.appFrameBox>.appMain.appImgBox>li>img{height: 100%;}
