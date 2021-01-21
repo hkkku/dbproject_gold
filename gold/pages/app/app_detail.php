@@ -61,20 +61,21 @@
 
            <div class="detailCon">
               <div class="appFrameBox">
-               <ul class="appMain appImgBox" id="appMain">
-                 <li>
-                   <img src="/gold/data/app_page/app_main/app_main_001.png" alt="">
-                 </li>  
-                 <li>
-                   <img src="/gold/data/app_page/app_main/app_main_002.jpg" alt="">
-                 </li>     
-                 <li>
-                   <img src="/gold/data/app_page/app_main/app_main_003.png" alt="">
-                 </li>                  
-               </ul>
-               <div class="appFrame appImgBox">
-                 <img src="/gold/img/app_frame.png" alt="">
-               </div>
+                <ul id="appMain">
+                  <li>
+                    <img src="/gold/data/app_page/app_main/app_main_001.png" alt="">
+                  </li>
+                  <li>
+                    <img src="/gold/data/app_page/app_main/app_main_002.jpg" alt="">
+                  </li>
+                  <li>
+                    <img src="/gold/data/app_page/app_main/app_main_003.png" alt="">
+                  </li>
+                </ul>
+                <span class="frameTop"></span>
+                <span class="frameLeft"></span>
+                <span class="frameRight"></span>
+                <span class="frameBottom"></span>
               </div>
 
               <p class="detailInfo">
@@ -102,14 +103,18 @@
       <?php include $_SERVER['DOCUMENT_ROOT'].'/gold/php_process/connect/db_connect.php'?>
     </div>
 
-    <script>
-      $("#appMain").lightSlider({
-      item:1,
-      loop:true,
-      keyPress:true
-     });
-    </script>
-    <script src="/gold/js/web_detail.js"></script>
-    <script src="/gold/plugin/lightslider.js"></script>
+    
+      <script src="/gold/js/web_detail.js"></script>
+      <script src="/gold/plugin/lightslider.js"></script>
+      <script>
+        $("#appMain").lightSlider({
+        item:1,
+        loop:true,
+        keyPress:true,
+        auto:true,
+        speed:500,
+        controls:false
+       });
+      </script>
   </body>
 </html>
