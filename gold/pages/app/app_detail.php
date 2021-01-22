@@ -63,7 +63,7 @@
               <div class="appFrameBox">
                 <ul id="appMain">
                   <li>
-                    <img src="/gold/data/app_page/app_main/app_main_001.png" alt="">
+                    <img src="/gold/data/app_page/app_main/<?=$app_detail_img?>" alt="">
                   </li>
                   <li>
                     <img src="/gold/data/app_page/app_main/app_main_002.jpg" alt="">
@@ -77,7 +77,10 @@
                 <span class="frameRight"></span>
                 <span class="frameBottom"></span>
               </div>
-
+              <div class="storeBtns">
+                <a href="#"><img src="/gold/img/app_store.png" alt=""></a>
+                <a href="#"><img src="/gold/img/google_play.png" alt=""></a>
+             </div>
               <p class="detailInfo">
                 Project by Gold Dev. Team / <?=$app_detail_ser?> / used in <?=$app_detail_cli?> / <?=$app_detail_reg?>
               </p>

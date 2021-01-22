@@ -286,4 +286,6 @@
   .appFrameBox{width: 70%;}
   .appFrameBox>span.frameTop{background-size: cover;}
   .appFrameBox>span.frameBottom{background-size: cover;}
+
+  .storeBtns a{width: 40%;}
 }

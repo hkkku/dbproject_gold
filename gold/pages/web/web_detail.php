@@ -80,6 +80,7 @@
                  <img src="/gold/img/iphone_frame.png" alt=""> 
                </div>
              </div>
+
              <!-- mobile web detail box end -->
              <p class="detailInfo">
                 Project by Gold Dev. Team / <?=$web_detail_ser?> / used in <?=$web_detail_cli?> / <?=$web_detail_reg?>
