@@ -1,1 +1,40 @@
-.qnaTitle>span{font-family: 'Noto Sans KR', sans-serif; font-weight: 300;}
+/*-------------------------------------------------------------*/
+/* qna table style */
+/*-------------------------------------------------------------*/
+.qnaBoxes .qnaTable{width: 80%; height: auto; margin: auto;}
+.qnaBoxes .qnaTable li.qnaTitle{width: 100%; height: auto; background: #D0AF51;}
+.qnaBoxes .qnaTable li span{text-align: center; font-family: 'Noto Sans KR'; font-weight: 300; font-size: 16px; color: #fff; display: block; float: left; padding: 10px 0;} 
+
+.qnaBoxes .qnaTable .qnaCon span,
+.qnaBoxes .qnaTable .qnaCon span a{color: #848484;}
+
+.qnaBoxes .qnaTable li.qnaCon:nth-child(odd){background: #f0f0f0;}
+.qnaBoxes .qnaTable li.qnaCon:last-child{border-bottom: 1px solid #D0AF51;}
+
+.qnaBoxes .qnaTable li span.qnaNum{width: 10%;}
+.qnaBoxes .qnaTable li span.qnaId{width: 15%;}
+.qnaBoxes .qnaTable li span.qnaTit{width: 50%;}
+.qnaBoxes .qnaTable li span.qnaReg{width: 15%;}
+.qnaBoxes .qnaTable li span.qnaHit{width: 10%;}
+
+.qnaBoxes .qnaTable li .qnaCon span.qnaTit{text-align: left;}
+
+/*-------------------------------------------------------------*/
+/* qna search & paging style */
+/*-------------------------------------------------------------*/
+.qnaBoxes .searchPaging{width: 80%; height: auto; margin: auto;}
+.qnaBoxes .searchPaging>div{width: 50%; height: auto;  float: left; margin-top: 10px;}
+.qnaBoxes .searchPaging>div.paging{display: flex; justify-content: flex-end;}
+
+.qnaBoxes .searchSelect{width: 20%; height: 30px; border-radius: 0; outline: 0; padding: 5px; border: 1px solid #D0AF51;color: #D0AF51; float: left; display: block;}
+.qnaBoxes .qnaSearchInput{width: 50%; height: 30px; padding: 5px; border: 1px solid #D0AF51; float: left; display: block; margin: 0 5px;}
+.qnaBoxes .qnaSearchBtn{width: 10%; height: 30px; background: #D0AF51; color: #fff; font-size: 14px; border: 1px solid #D0AF51; outline: 0; display: flex; justify-content: center; align-items: center;}
+
+.qnaBoxes .paging span{display: flex; width: 30px; height: 30px; border: 1px solid #D0AF51; color: #D0AF51; justify-content: center; align-items: center; margin-left: 5px; transition: all 0.3s;}
+.qnaBoxes .paging span:hover,
+.qnaBoxes .paging span.active{background: #D0AF51; color: #fff;}
+
+/*-------------------------------------------------------------*/
+/* writebox style */
+/*-------------------------------------------------------------*/
+.qnaBoxes .writeBox{width: 80%; border: 1px solid #D0AF51; padding: 5px; margin: auto; margin-top: 25px;}
