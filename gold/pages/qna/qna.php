@@ -37,40 +37,21 @@
             <div class="qnaTable">
               <ul class="qnaList">
                 <li class="qnaTitle clear">
-                  <span class="qnaNum">고유번호</span>
+                  <span class="qnaNum">번호</span>
                   <span class="qnaId">아이디</span>
                   <span class="qnaTit">제목</span>
                   <span class="qnaReg">등록일</span>
                   <span class="qnaHit">조회수</span>
                 </li>
-                <li class="qnaCon clear">
-                  <span class="qnaNum">1</span>
-                  <span class="qnaId">hkkku</span>
-                  <span class="qnaTit"><a href="#">test 게시글</a></span>
-                  <span class="qnaReg">2021-01-22</span>
-                  <span class="qnaHit">31</span>
-                </li>
-                <li class="qnaCon clear">
-                  <span class="qnaNum">2</span>
-                  <span class="qnaId">gkrud</span>
-                  <span class="qnaTit"><a href="#">test 게시글2</a></span>
-                  <span class="qnaReg">2021-01-22</span>
-                  <span class="qnaHit">38</span>
-                </li>
-                <li class="qnaCon clear">
-                  <span class="qnaNum">3</span>
-                  <span class="qnaId">gkrud23</span>
-                  <span class="qnaTit"><a href="#">test 게시글3</a></span>
-                  <span class="qnaReg">2021-01-22</span>
-                  <span class="qnaHit">34</span>
-                </li>
+
+                
               </ul>
             </div>
             <!-- qna table end -->
 
             <div class="searchPaging clear">
               <div class="search">
-                <form action="abc.php" name="qnaSearch" class="clear">
+                <form action="abc.php" name="qnaSearch" class="clear qnaSearch">
                   <select name="searchSelect" id="" class="searchSelect">
                     <option value="qnaSearchId">아이디</option>
                     <option value="qnaSearchTit">제목</option>
@@ -97,12 +78,22 @@
               </div>
             </div>
             <!-- searchpaging end -->
-            <div class="writeBox">
-              <form action="abc.php" method="POST">
-                <input type="text" placeholder="제목을 작성해 주세요.">
-                <input type="text" placeholder="질문을 작성해 주세요.">
-                <button class="writeBtn">글쓰기</button>                
+            <div class="writeBox clear">
+              <div class="qnaGuide">
+                <span>글쓰기</span>
+                <span><?=$userid?></span>
+                <!-- <span><a href="#">로그인</a></span> -->
+              </div>
+              <form action="/gold/php_process/pages/qna_insert.php?id=<?=$userid?>" method="POST" class="writeForm" name="writeForm">
+                <p class="qnaTitInput">
+                  <label for="qnaTitle">제목</label>
+                  <input type="text" name="qnaTitle" id="qnaTitle" placeholder="제목을 입력해 주세요.">
+                  <p class="qnaTxtInput">
+                    <textarea name="qnaTxt" placeholder="내용을 입력해 주세요."></textarea>
+                  </p>
+                </p>
               </form>
+              <button type="submit" class="qnaSubmit">등록</button>
             </div>
           </div>
           <!-- web boxes end -->                  
@@ -114,12 +105,30 @@
     </div>
     
     <script>
+      const qnaSubmit = document.querySelector(".qnaSubmit");
+      qnaSubmit.addEventListener('click', insertQna);
 
+      function insertQna(){
+        if(!document.writeForm.qnaTitle.value){
+          alert("제목을 입력해 주세요.")
+          document.writeForm.qnaTitle.focus();
+          return;
+        }
+        if(!document.writeForm.qnaTxt.value){
+          alert("내용을 입력해 주세요.")
+          document.writeForm.qnaTxt.focus();
+          return;
+        }
+
+        document.writeForm.submit();
+        
+      }
     </script>
 
     <!-- jquery framework -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="/gold/js/web_design_page.js"></script>
+    <script src="/gold/js/qna_ajax.js"></script>
     <!-- main js link -->
     <script src="/gold/js/custom.js"></script>
   </body>
