@@ -34,25 +34,22 @@
 .qnaBoxes .paging span:hover,
 .qnaBoxes .paging span.active{background: #D0AF51; color: #fff;}
 
-/*-------------------------------------------------------------*/
 /* writebox style */
-/*-------------------------------------------------------------*/
 .qnaBoxes .writeBox{width: 80%; margin: 50px auto 0;}
 .qnaBoxes .writeBox .qnaGuide{width: 100%; height: auto; margin-bottom: 5px; }
 .qnaBoxes .writeBox .qnaGuide span{padding-right: 10px; border-right: 1px solid #D0AF51; color: #D0AF51; font-weight: 600;}
 .qnaBoxes .writeBox .qnaGuide span a{color: #D0AF51;}
 .qnaBoxes .writeBox .qnaGuide span:last-child{border-right: 0; padding-left: 5px;}
 
-/*-------------------------------------------------------------*/
 /* qna input box style */
-/*-------------------------------------------------------------*/
 .qnaBoxes .writeBox .writeForm{border: 1px solid #D0AF51; padding: 5px;}
 .qnaBoxes .writeBox p{width: 100%; height: auto; margin-bottom: 5px; display: flex;}
 .qnaBoxes .writeBox p:last-child{margin-bottom: 0;}
 .qnaBoxes .writeBox p label{width: calc(20% - 5px); height: 30px; background: #D0AF51; color: #fff; text-align: center; display: flex; justify-content: center; align-items: center;}
 .qnaBoxes .writeBox p input{display: flex; width: 80%; border: 1px solid #D0AF51; outline: 0; padding: 0 5px; margin-left: 5px;}
 .qnaBoxes .writeBox p textarea{width: 100%; height: 150px; padding: 5px; border: 1px solid #D0AF51; resize: none;}
-.qnaBoxes .writeBox button{border: 1px solid #D0AF51; background: #D0AF51; color: #fff; text-align: center; padding: 5px 30px; margin-top: 5px; float: right;}
+.qnaBoxes .writeBox button,
+.qnaBoxes .writeBox a{border: 1px solid #D0AF51; background: #D0AF51; color: #fff; text-align: center; padding: 5px 30px; margin-top: 5px; float: right;}
 
 /*-------------------------------------------------------------*/
 /* qna view page style */
@@ -61,3 +58,10 @@
 .qnaView .writerInfo p{color: #D0AF51; font-weight: 300; padding: 5px;}
 .qnaView .writeBox{margin: 5px auto 0;}
 .qnaView button{margin-left: 5px;}
+
+/* qna answer box style */
+.qnaView .answerBox{width: 80%; height: auto; margin: auto; padding: 5px; border: 1px solid #D0AF51; margin-top: 30px;} 
+.qnaView .answerBox .ansInputForm{width: 100%; height: 100%; display: flex;}
+.qnaView .answerBox .ansInputForm textarea{width: 80%; height: 80px; resize: none; border: 1px solid #D0AF51; outline: none; padding: 5px;}
+.qnaView .answerBox .ansInputForm .ansBtn{width: 20%; padding: 10px;}
+.qnaView .answerBox .ansInputForm button{width: 100%; height: 100%; border: 1px solid #D0AF51; background: #D0AF51; color: #fff; text-align: center;}
