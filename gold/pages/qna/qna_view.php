@@ -94,16 +94,29 @@
               
               while($rep_row = mysqli_fetch_array($rep_result)){ 
                 $rep_con = $rep_row['GOLD_ANS_con'];
+                $rep_ans_num = $rep_row['GOLD_ANS_num']
             ?>
               <div class="ansResult">
-                <p class="adminId">관리자</p>
+                <p class="adminId">
+                 <b>ADMIN</b>
+
+                 <?php
+                  if($userlevel == 1){
+                 ?>
+                  <a href="/gold/php_process/pages/ans_delete.php?num=<?=$rep_ans_num?>" class="ansDeleteBtn">
+                    <i class="fa fa-trash"></i>
+                  </a>
+                 <?php
+                  }
+                 ?>
+                </p>
                 <p class="ansResultTxt"><?=$rep_con?></p>
               </div>  
             <?php
               }
             ?>  
 
-            <!-- answer result box end     -->
+            <!-- answer result box end -->
             <div class="answerBox">
               <form action="/gold/php_process/pages/ans_insert.php?num=<?=$ans_num?>" method="POST" name="ansInputForm" class="ansInputForm">
                 <textarea name="ansInputTxt" placeholder="답글을 작성해 주세요." class="ansInputTxt"></textarea>
