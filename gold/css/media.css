@@ -154,7 +154,14 @@
   .qnaBoxes .writeBox p label{font-size: 12px;}
   .qnaBoxes .writeBox p input{font-size: 12px;}
   .qnaBoxes .writeBox p textarea{font-size: 12px;}
+  .qnaBoxes .writeBox a,
   .qnaBoxes .writeBox button{font-size: 12px;}
+
+  /* qna view page media style */
+  .qnaView .answerBox .ansInputForm textarea,
+  .qnaView .answerBox .ansInputForm button{font-size: 12px;}
+
+  .qnaView .ansResult p{font-size: 12px;}
 }
 
 @media screen and (max-width:700px){
@@ -241,6 +248,16 @@
   .qnaBoxes .qnaTable li span.qnaReg{display: none;}
   .qnaBoxes .qnaTable li span.qnaId{width: 25%;}
   .qnaBoxes .qnaTable li span.qnaHit{width: 15%;}
+
+  /* qna view page media style */
+  .qnaView .answerBox .ansInputForm{flex-wrap: wrap;}
+  .qnaView .answerBox .ansInputForm .ansBtnBox{width: 100%; padding-left: 0; margin-top: 3px;}
+  .qnaView .answerBox .ansInputForm textarea{width: 100%;}
+  .qnaView .answerBox .ansInputForm button{padding: 5px 0;}
+
+  .qnaView .ansResult{flex-wrap: wrap;}
+  .qnaView .ansResult p.adminId{width: 100%; height: auto; padding: 5px; border: 1px solid #D0AF51; justify-content: start; margin-bottom: 5px;}
+  .qnaView .ansResult p.ansResultTxt{width: 100%;}
 }
 
 @media screen and (max-width:480px){
@@ -328,4 +345,13 @@
   .qnaBoxes .qnaSearchBtn{width: 100%; margin-top: 2px;}
 
   .qnaBoxes .writeBox{width: 90%; margin: 20px auto 0;}
+
+  /* qna view page media style */
+  .qnaView .writerInfo{width: 90%; text-align: center;}
+  .qnaView .writeBox{margin: 5px auto 0; text-align: center;}
+  .qnaView .answerBox{width: 90%; margin-top: 20px;}
+  .qnaView .writeBox button,
+  .qnaView .writeBox a{float: none;}
+
+  .qnaView .ansResult{width: 90%;}
 }

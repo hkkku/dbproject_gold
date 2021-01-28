@@ -77,23 +77,53 @@
                 } else {
               ?>
                
-              <button type="submit" class="ansSubmit">수정</button>
+              <button type="submit" class="ansUpdate" onclick="ansUpdate()">수정</button>
               <a href="/gold/pages/qna/qna.php">돌아가기</a>
               <?php
                 }
               ?> 
             </div>
             <!-- writebox end -->
+            <?php
+              $ans_num = $_GET['num'];
+              //database connect
+              include $_SERVER['DOCUMENT_ROOT'].'/gold/php_process/connect/db_connect.php';
+              $sql = "select * from gold_ans where GOLD_ANS_QNA_num = $ans_num order by GOLD_ANS_num desc";
+
+              $rep_result = mysqli_query($dbConn , $sql);
+              
+              while($rep_row = mysqli_fetch_array($rep_result)){ 
+                $rep_con = $rep_row['GOLD_ANS_con'];
+            ?>
+              <div class="ansResult">
+                <p class="adminId">관리자</p>
+                <p class="ansResultTxt"><?=$rep_con?></p>
+              </div>  
+            <?php
+              }
+            ?>  
+
+            <!-- answer result box end     -->
             <div class="answerBox">
-              <form action="" method="POST" name="ansInputForm" class="ansInputForm">
-                <textarea name="ansInputTxt" placeholder="답글을 작성해 주세요."></textarea>
-                <p class="ansBtn">
-                 <button type="submit">답글 달기</button>
+              <form action="/gold/php_process/pages/ans_insert.php?num=<?=$ans_num?>" method="POST" name="ansInputForm" class="ansInputForm">
+                <textarea name="ansInputTxt" placeholder="답글을 작성해 주세요." class="ansInputTxt"></textarea>
+                <p class="ansBtnBox">
+                  <?php
+                  if($userid == ''){
+                  ?>
+                    <button type="button" onclick="plzLogin()">등록</button>
+                  <?php    
+                   } else {
+                  ?>
+                    <button type="button" class="ansBtn" onclick="reply()">답글 달기</button>
+                 <?php
+                   }
+                 ?> 
                 </p>
               </form>
             </div>
           </div>
-          <!-- web boxes end -->                  
+          <!-- answer boxes end -->                  
         </div>
         <!-- center end -->
       </section>
@@ -109,22 +139,36 @@
     <!-- main js link -->
     <script src="/gold/js/custom.js"></script>
     <script>
-      const ansSubmit = document.querySelector(".ansSubmit");
-      ansSubmit.addEventListener('click', insertAns);
+      function plzLogin(){
+        alert('글쓰기를 하시려면 로그인이 필요합니다.');
+      }
+      // const ansBtn = document.querySelector(".ansBtn");
+      // ansBtn.addEventListener('click', insertAns);
                 
-      function insertAns(){
+      function ansUpdate(){
         if(!document.ansForm.ansTitle.value){
-          alert("제목을 입력해 주세요.")
+          alert("제목을 입력해 주세요.");
           document.ansForm.ansTitle.focus();
           return;
         }
         if(!document.ansForm.ansTxt.value){
-          alert("내용을 입력해 주세요.")
+          alert("내용을 입력해 주세요.");
           document.ansForm.ansTxt.focus();
           return;
         }
 
-     document.ansForm.submit();
+      document.ansForm.submit();
+      }
+
+      function reply(){
+
+        if(!document.ansInputForm.ansInputTxt.value){
+          alert("내용을 입력해 주세요.");
+          document.ansInputForm.ansInputTxt.focus();
+          return;
+        }
+
+      document.ansInputForm.submit();
       }
     </script>
   </body>
