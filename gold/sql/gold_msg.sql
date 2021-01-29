@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- 생성 시간: 21-01-29 02:16
+-- 생성 시간: 21-01-29 06:38
 -- 서버 버전: 10.4.16-MariaDB
 -- PHP 버전: 7.4.12
 
@@ -24,42 +24,37 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- 테이블 구조 `gold_ans`
+-- 테이블 구조 `gold_msg`
 --
 
-CREATE TABLE `gold_ans` (
-  `GOLD_ANS_num` int(11) NOT NULL COMMENT '고유 번호',
-  `GOLD_ANS_QNA_num` int(11) DEFAULT NULL COMMENT '질문 글 번호',
-  `GOLD_ANS_con` text CHARACTER SET utf8 NOT NULL COMMENT '답글 내용',
-  `GOLD_ANS_reg` varchar(15) CHARACTER SET utf8 NOT NULL COMMENT '답글 작성일'
+CREATE TABLE `gold_msg` (
+  `GOLD_MSG_num` int(11) NOT NULL COMMENT '고유번호',
+  `GOLD_MSG_name` varchar(20) CHARACTER SET utf8 NOT NULL COMMENT '작성자 이름',
+  `GOLD_MSG_email` varchar(50) CHARACTER SET utf8 NOT NULL COMMENT '작성자 이메일',
+  `GOLD_MSG_tit` varchar(50) CHARACTER SET utf8 NOT NULL COMMENT '메시지 제목',
+  `GOLD_MSG_con` text CHARACTER SET utf8 NOT NULL COMMENT '메시지 내용',
+  `GOLD_MSG_reg` varchar(20) CHARACTER SET utf8 NOT NULL COMMENT '작성일자'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- 테이블의 덤프 데이터 `gold_ans`
---
-
-INSERT INTO `gold_ans` (`GOLD_ANS_num`, `GOLD_ANS_QNA_num`, `GOLD_ANS_con`, `GOLD_ANS_reg`) VALUES
-(2, 20, 'test 답변입니다.', '2021-01-28');
 
 --
 -- 덤프된 테이블의 인덱스
 --
 
 --
--- 테이블의 인덱스 `gold_ans`
+-- 테이블의 인덱스 `gold_msg`
 --
-ALTER TABLE `gold_ans`
-  ADD PRIMARY KEY (`GOLD_ANS_num`);
+ALTER TABLE `gold_msg`
+  ADD PRIMARY KEY (`GOLD_MSG_num`);
 
 --
 -- 덤프된 테이블의 AUTO_INCREMENT
 --
 
 --
--- 테이블의 AUTO_INCREMENT `gold_ans`
+-- 테이블의 AUTO_INCREMENT `gold_msg`
 --
-ALTER TABLE `gold_ans`
-  MODIFY `GOLD_ANS_num` int(11) NOT NULL AUTO_INCREMENT COMMENT '고유 번호', AUTO_INCREMENT=4;
+ALTER TABLE `gold_msg`
+  MODIFY `GOLD_MSG_num` int(11) NOT NULL AUTO_INCREMENT COMMENT '고유번호';
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

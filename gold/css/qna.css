@@ -38,7 +38,7 @@
 .qnaBoxes .writeBox{width: 80%; margin: 50px auto 0;}
 .qnaBoxes .writeBox .qnaGuide{width: 100%; height: auto; margin-bottom: 5px; }
 .qnaBoxes .writeBox .qnaGuide span{padding-right: 10px; border-right: 1px solid #D0AF51; color: #D0AF51; font-weight: 600;}
-.qnaBoxes .writeBox .qnaGuide span a{color: #D0AF51;}
+.qnaBoxes .writeBox .qnaGuide span a{color: #D0AF51; background: #fff; border: none; float: none; padding: 0; font-size: 14px; margin: 0; font-weight: 600;}
 .qnaBoxes .writeBox .qnaGuide span:last-child{border-right: 0; padding-left: 5px;}
 
 /* qna input box style */
