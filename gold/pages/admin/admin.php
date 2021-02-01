@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="/gold/css/style.css" />
     <!-- admin page css link -->
     <link rel="stylesheet" href="/gold/css/design_web_app.css" />
+    <link rel="stylesheet" href="/gold/css/qna.css" />
     <link rel="stylesheet" href="/gold/css/admin.css" />
     <!-- animation css link -->
     <link rel="stylesheet" href="/gold/css/animation.css" />
@@ -26,9 +27,9 @@
       <?php
         if($userlevel != 1){
       ?>
-        <div class="deny">
-          <p>관리자 페이지 입니다. 관리자로 로그인 해 주세요.</p>
-          <a href="/gold/pages/login/login_form.php">로그인</a>
+        <div class="deny" style="width: 100%; height: auto; text-align: center; padding: 50px 0; font-family: 'Noto Sans KR'; color: #848484;">
+          <p style="font size: 25px; font-weight: 600;">관리자 페이지 입니다. 관리자로 로그인 해 주세요.</p>
+          <a href="/gold/pages/login/login_form.php" style="color: #fff; background: #D0AF51; padding: 10px 25px; margin-top: 10px; display: inline-block;">로그인</a>
         </div> 
       <?php   
         } else {
@@ -36,11 +37,11 @@
         <section class="contents admin hasTitle">
           <div class="center">
             <div class="adminTabs">
-              <button type="button" class="active">메세지 관리</button>
-              <button type="button">회원 관리</button>
-              <button type="button">Web 관리</button>
-              <button type="button">App 관리</button>
-              <button type="button">Q&A 관리</button>
+              <button type="button" class="active"><i class="fa fa-envelope"></i><b>메세지 관리</b></button>
+              <button type="button"><i class="fa fa-user"></i><b>회원 관리</b></button>
+              <button type="button"><i class="fa fa-desktop"></i><b>Web 관리</b></button>
+              <button type="button"><i class="fa fa-mobile"></i><b>App 관리</b></button>
+              <button type="button"><i class="fa fa-comment"></i><b>Q&A 관리</b></button>
             </div>      
             <div class="msgTab deWeBoxes adminPanel">           
               <div class="msgTable">
@@ -69,16 +70,41 @@
                   <li class="msgContents clear">
                     <span class="msgNum"><?=$msg_num?></span>
                     <span class="msgName"><?=$msg_name?></span>
-                    <span class="msgTit"><a href="#"><?=$msg_tit?></a></span>
+                    <span class="msgTit"><a href="/gold/pages/admin/admin_view.php?num=<?=$msg_num?>"><?=$msg_tit?></a></span>
                     <span class="msgReg"><?=$msg_reg?></span>
                     <span class="msgEmail"><?=$msg_email?></span>
-                    <span class="msgDelete"><a href=""><i class="fa fa-trash"></i></a></span>
+                    <span class="msgDelete"><a href="/gold/php_process/pages/msg_delete.php?num=<?=$msg_num?>"><i class="fa fa-trash"></i></a></span>
                   </li>  
                   <?php
                    }
                   ?>         
                 </ul>
               </div>
+              <!-- msg table end -->
+              <div class="searchPaging clear">
+                <div class="search">
+                  <form action="/gold/pages/admin/msg_search_result.php" method="POST" name="adminSearch" class="clear adminSearch">
+                    <select name="searchSelect" id="" class="searchSelect">
+                      <option value="adminSearchId">이름</option>
+                      <option value="adminSearchTit">제목</option>
+                    </select>
+                    <input type="text" name="adminSearchInput" class="adminSearchInput" placeholder="검색어를 입력해 주세요.">
+                    <button type="button" class="adminSearchBtn"><i class="fa fa-search" onclick="admin_search_check()"></i></button> 
+                    <script>
+                      function admin_search_check(){
+                        if(!document.adminSearch.adminSearchInput.value){
+                          alert('검색어를 입력해 주세요.');
+                          document.adminSearch.adminSearchInput.focus();
+                          return;
+                        }
+                        document.adminSearch.submit();
+                      }
+                    </script>
+                  </form>
+                </div>
+                <!-- search div end -->
+              </div> 
+              <!-- searchpage end -->
             </div> 
             <!-- msg tab end -->   
             <div class="memberTab adminPanel">member Tab</div>               

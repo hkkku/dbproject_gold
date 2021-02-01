@@ -22,13 +22,15 @@
 /*-------------------------------------------------------------*/
 /* qna search & paging style */
 /*-------------------------------------------------------------*/
-.qnaBoxes .searchPaging{width: 80%; height: auto; margin: auto;}
-.qnaBoxes .searchPaging>div{width: 50%; height: auto;  float: left; margin-top: 10px;}
-.qnaBoxes .searchPaging>div.paging{display: flex; justify-content: flex-end;}
+.searchPaging{width: 80%; height: auto; margin: auto;}
+.searchPaging>div{width: 50%; height: auto;  float: left; margin-top: 10px;}
+.searchPaging>div.paging{display: flex; justify-content: flex-end;}
 
-.qnaBoxes .searchSelect{width: 20%; height: 30px; border-radius: 0; outline: 0; padding: 5px; border: 1px solid #D0AF51;color: #D0AF51; float: left; display: block;}
-.qnaBoxes .qnaSearchInput{width: 50%; height: 30px; padding: 5px; border: 1px solid #D0AF51; float: left; display: block; margin: 0 5px;}
-.qnaBoxes .qnaSearchBtn{width: 10%; height: 30px; background: #D0AF51; color: #fff; font-size: 14px; border: 1px solid #D0AF51; outline: 0; display: flex; justify-content: center; align-items: center;}
+.searchSelect{width: 20%; height: 30px; border-radius: 0; outline: 0; padding: 5px; border: 1px solid #D0AF51;color: #D0AF51; float: left; display: block;}
+.qnaBoxes .qnaSearchInput,
+.admin .adminSearchInput{width: 50%; height: 30px; padding: 5px; border: 1px solid #D0AF51; float: left; display: block; margin: 0 5px;}
+.qnaBoxes .qnaSearchBtn,
+.admin .adminSearchBtn{width: 10%; height: 30px; background: #D0AF51; color: #fff; font-size: 14px; border: 1px solid #D0AF51; outline: 0; display: flex; justify-content: center; align-items: center;}
 
 .qnaBoxes .paging span{display: flex; width: 30px; height: 30px; border: 1px solid #D0AF51; color: #D0AF51; justify-content: center; align-items: center; margin-left: 5px; transition: all 0.3s;}
 .qnaBoxes .paging span:hover,
