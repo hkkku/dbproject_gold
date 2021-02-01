@@ -54,14 +54,14 @@
            if($userlevel == 1){    
        ?>
           <a href="/gold/php_process/login/logout.php">LOGOUT</a>
-          <a href="/gold/pages/login/join_form.php"><?=$userid?>[<?=$userpoint?>]</a>
-          <a href="#">ADMIN</a>
+          <a href="#"><?=$userid?>[<?=$userpoint?>]</a>
+          <a href="/gold/pages/admin/admin.php">ADMIN</a>
          <?php
             } else {
             // 아이디가 있지만, userlevel이 1이 아니다
          ?>
             <a href="/gold/php_process/login/logout.php">LOGOUT</a>
-            <a href="/gold/pages/login/join_form.php"><?=$userid?>[<?=$userpoint?>]</a>
+            <a href="#"><?=$userid?>[<?=$userpoint?>]</a>
        <?php
             }
          }

@@ -1,0 +1,26 @@
+.admin .adminTabs{width: 100%; height: auto; text-align: center; margin-bottom: 30px;}
+.admin .adminTabs button{border: 1px solid #D0AF51; font-weight: 600; background: #fff; padding: 10px 30px; transition: all 0.4s; color: #D0AF51;}
+.admin .adminTabs button:hover,
+.admin .adminTabs button.active{background: #D0AF51; color: #fff;}
+
+/* admin message tab style */
+.admin .msgTable{width: 80%; height: auto; margin: auto;}
+.admin .msgTable li{width: 100%; height: auto;}
+
+.admin .msgTable li:nth-child(odd){background: #f0f0f0;}
+.admin .msgTable li.msgTitle{background: #D0AF51;}
+
+.admin .msgTable span{text-align: center; display: block; float: left; padding: 10px 0; font-family: 'Noto Sans KR'; font-weight: 300;}
+.admin .msgTable .msgTitle span{color: #fff;}
+.admin .msgTable .msgContents span,
+.admin .msgTable .msgContents span a{color: #848484;}
+.admin .msgTable li.msgContents:last-child{border-bottom: 1px solid #D0AF51;}
+
+.admin .msgTable span.msgNum{width: 5%;}
+.admin .msgTable span.msgName{width: 15%;}
+.admin .msgTable span.msgTit{width: 30%;}
+.admin .msgTable span.msgReg{width: 20%;}
+.admin .msgTable span.msgEmail{width: 20%;}
+.admin .msgTable span.msgDelete{width: 10%;}
+
+.admin .msgTable li.msgContents span a i{color: #D0AF51; font-size: 18px;}
