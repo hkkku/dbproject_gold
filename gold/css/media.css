@@ -84,12 +84,12 @@
   /* admin page style */
   .admin .adminTabs button{padding: 10px 20px;}
 
-  .admin .msgTable span.msgNum{width: 10%;}
-  .admin .msgTable span.msgName{width: 15%;}
-  .admin .msgTable span.msgTit{width: 40%;}
-  .admin .msgTable span.msgReg{width: 25%;}
-  .admin .msgTable span.msgEmail{display: none;}
-  .admin .msgTable span.msgDelete{width: 10%;}
+  .admin .adminTable span.msgNum{width: 10%;}
+  .admin .adminTable span.msgName{width: 15%;}
+  .admin .adminTable span.msgTit{width: 40%;}
+  .admin .adminTable span.msgReg{width: 25%;}
+  .admin .adminTable span.msgEmail{display: none;}
+  .admin .adminTable span.msgDelete{width: 10%;}
 }
 
 @media screen and (max-width:800px){
@@ -223,16 +223,26 @@
   .qnaBoxes .qnaSearchInput,
   .admin .adminSearchInput{font-size: 12px;}
 
-  /* admin page style */
-  .admin .adminTabs button{padding: 5px 10px; font-size: 12px;}
-  /* .admin .msgTable{margin: 10px auto 0;} */
+  /* admin message page style */
+  .admin .adminTabs button{padding: 10px 25px; font-size: 12px;}
+  
+  .adminViewBtns a{font-size: 12px;}
 
-  .admin .msgTable span{font-size: 12px; padding: 7px 0;}
-  .admin .msgTable span.msgNum{width: 15%;}
-  .admin .msgTable span.msgName{width: 20%;}
-  .admin .msgTable span.msgTit{width: 50%;}
-  .admin .msgTable span.msgReg{display: none;}
-  .admin .msgTable span.msgDelete{width: 15%;}
+  .admin .adminTable span{font-size: 12px; padding: 7px 0;}
+  .admin .adminTable span.msgNum{width: 15%;}
+  .admin .adminTable span.msgName{width: 20%;}
+  .admin .adminTable span.msgTit{width: 50%;}
+  .admin .adminTable span.msgReg{display: none;}
+  .admin .adminTable span.msgDelete{width: 15%;}
+
+  /* admin member page style */
+  .memberTab span.memNum{display: none;}
+  .memberTab span.memId{width: 20%;}
+  .memberTab span.memName{width: 20%;}
+  .memberTab span.memLv{width: 15%;}
+  .memberTab span.memPt{width: 15%;}
+  .memberTab span.memUpdate{width: 15%;}
+  .memberTab span.memDelete{width: 15%;}
   
 }
 
@@ -286,10 +296,7 @@
 
   /* admin page media style */
   .admin .adminTabs{display: flex; justify-content: center;}
-  .admin .adminTabs button{display: inline-block; width: 40px; height: 40px;margin: 0 2px;}
-  .admin .adminTabs button i{display: inline; font-size: 18px;}
-  .admin .adminTabs button i.fa-mobile{font-size: 25px;}
-  .admin .adminTabs button b{display: none;}
+  .admin .adminTabs button{display: block; width:30%; margin: 0 2px; padding: 5px 0;}
 }
 
 @media screen and (max-width:480px){
@@ -391,10 +398,24 @@
 
   .qnaView .ansResult{width: 90%;}
 
-  /* admin page style */
-  .admin .msgTable{width: 90%;}
-  .admin .msgTable span.msgNum{display: none;}
-  .admin .msgTable span.msgName{width: 20%;}
-  .admin .msgTable span.msgTit{width: 60%;}
-  .admin .msgTable span.msgDelete{width: 20%;}
+  .admin .adminTabs{width: 90%;}
+  /* admin message page style */
+  .adminViewBtns{width: 90%;}
+
+  .admin .adminTable{width: 90%;}
+  .admin .adminTable span.msgNum{display: none;}
+  .admin .adminTable span.msgName{width: 20%;}
+  .admin .adminTable span.msgTit{width: 60%;}
+  .admin .adminTable span.msgDelete{width: 20%;}
+
+  /* admin member page style */
+  .memberTab span.memId{width: 25%;}
+  .memberTab span.memName{width: 25%;}
+  .memberTab span.memLv{width: 25%;}
+  .memberTab span.memPt{width: 25%;}
+  .memberTab span.memUpdate{width: 50%;}
+  .memberTab span.memDelete{width: 50%;}
+
+  .memberTab .adminTitle span.memDelete,
+  .memberTab .adminTitle span.memUpdate{display: none;}
 }
