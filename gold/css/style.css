@@ -9,6 +9,7 @@
 ol , ul{list-style: none;}
 a{text-decoration: none; color: #444;}
 body{font-size: 14px; font-family: "Open Sans", sans-serif;}
+input[type="checkbox"]{-webkit-appearance: auto; border-radius: 0; border: 1px solid #D0AF51;}
 img{display: block;}
 button, input, textarea{outline: 0; font-family: 'Open Sans';}
 .clear::after{clear: both; display: block; content: '';} 

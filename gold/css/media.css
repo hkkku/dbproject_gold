@@ -223,7 +223,7 @@
   .qnaBoxes .qnaSearchInput,
   .admin .adminSearchInput{font-size: 12px;}
 
-  /* admin message page style */
+  /* admin message page media style */
   .admin .adminTabs button{padding: 10px 25px; font-size: 12px;}
   
   .adminViewBtns a{font-size: 12px;}
@@ -235,7 +235,7 @@
   .admin .adminTable span.msgReg{display: none;}
   .admin .adminTable span.msgDelete{width: 15%;}
 
-  /* admin member page style */
+  /* admin member page media style */
   .memberTab span.memNum{display: none;}
   .memberTab span.memId{width: 20%;}
   .memberTab span.memName{width: 20%;}
@@ -243,6 +243,22 @@
   .memberTab span.memPt{width: 15%;}
   .memberTab span.memUpdate{width: 15%;}
   .memberTab span.memDelete{width: 15%;}
+
+  /* admin qna page media style */
+  .qnaTab span.qnaCheck{width: 10%;}
+  .qnaTab span.qnaNum{display: none;} 
+  .qnaTab span.qnaId{width: 15%;}
+  .qnaTab span.qnaTit{width: 40%;}
+  .qnaTab span.qnaReg{width: 20%;}
+  .qnaTab span.qnaHit{width: 10%;}
+
+  .searchPaging{text-align: center;}
+  .qnaTab .checkDeleteBtn{margin-top: 0;}  
+  .qnaResultBtns{text-align: center;}
+  .qnaResultBtns button{font-size: 12px; }
+
+  /* detail page admin button media style */
+  .productAdminBtns{text-align: center;}
   
 }
 
@@ -297,6 +313,14 @@
   /* admin page media style */
   .admin .adminTabs{display: flex; justify-content: center;}
   .admin .adminTabs button{display: block; width:30%; margin: 0 2px; padding: 5px 0;}
+
+  /* admin qna page media style */
+  .qnaTab span.qnaCheck{width: 15%;}
+  .qnaTab span.qnaId{width: 20%;}
+  .qnaTab span.qnaTit{width: 65%;}
+  .qnaTab span.qnaReg{display: none;}
+  .qnaTab span.qnaHit{display: none;}
+
 }
 
 @media screen and (max-width:480px){

@@ -51,15 +51,15 @@
 .memberTab span.memLv input,
 .memberTab span.memPt input{width: 80%; border: 1px solid #D0AF51; border-radius: 0; outline: 0; color: #848484; text-align: center; padding: 3px 0;}
 
-/* admin web tab style */
-.webTab .adminContents{display: flex; flex-wrap: wrap;}
-.webTab .adminContents span{display: flex; align-items: center; justify-content: center;}
-.webTab span.webNum{width: 5%;}
-.webTab span.webTit{width: 15%;}
-.webTab span.webSer{width: 10%;}
-.webTab span.webDesc{width: 45%;}
-.webTab span.webCli{width: 10%;}
-.webTab span.webDom{width: 15%;}
-.webTab span.webThumb{width: 33.33%;}
-.webTab span.webPc{width: 33.33%;}
-.webTab span.webMo{width: 33.33%;}
+/* admin qna tab style */
+.qnaTab span.qnaCheck{width: 5%;}
+.qnaTab span.qnaNum{width: 15%;}
+.qnaTab span.qnaId{width: 15%;}
+.qnaTab span.qnaTit{width: 40%;}
+.qnaTab span.qnaReg{width: 15%;}
+.qnaTab span.qnaHit{width: 10%;}
+
+.qnaTab .checkDeleteBtn,
+.qnaResultBtns button{border: 0; outline: 0; background: #D0AF51; color: #fff; padding: 5px 15px; height: 30px; margin-top: 10px;}
+
+.qnaResultBtns{text-align: right;}

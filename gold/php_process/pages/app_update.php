@@ -1,4 +1,5 @@
 <?php
+  $app_update_num = $_GET['num'];
   $app_title = nl2br($_REQUEST['app_title']);
   $app_title = addslashes($app_title);
   $app_serial = $_REQUEST['app_serial'];
@@ -55,11 +56,9 @@
 
   //database connect
   include $_SERVER['DOCUMENT_ROOT'].'/gold/php_process/connect/db_connect.php';
-  $sql = "insert into gold_app(
-    GOLD_APP_tit, GOLD_APP_ser, GOLD_APP_des, GOLD_APP_img,  GOLD_APP_thumb, GOLD_APP_cli, GOLD_APP_reg  
-  ) values (
-    '$app_title' , '$app_serial'  ,'$app_desc', '$main_name' , '$sub_name' ,'$app_client' , '$resist_day'
-  )";
+  $sql = "update gold_app set GOLD_APP_tit = '$app_title', GOLD_APP_ser = '$app_serial', GOLD_APP_des = '$app_desc', GOLD_APP_img = '$main_name', GOLD_APP_thumb = '$sub_name', GOLD_APP_cli = '$app_client', GOLD_APP_reg = '$resist_day' where GOLD_APP_num = '$app_update_num'";
+
+
   mysqli_query($dbConn, $sql);
   // DB에 접속해서 sql에 insert가 실행(변수 삽입) & query를 날려줌
   

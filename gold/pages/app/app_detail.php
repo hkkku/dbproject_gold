@@ -89,6 +89,20 @@
                 <p><?=$app_detail_des?></p>
                 <a href="/gold/index.php#contact"><i class="fa fa-arrow-right"></i> Get In Touch With ...</a>
               </div>
+              <?php
+              if($userlevel != 1){
+              ?>
+                <input type="hidden">
+              <?php
+              } else {
+              ?>
+                <div class="productAdminBtns">
+                  <button type="button" onclick="location.href='/gold/pages/admin/update_product.php?key=app_update_form&num=<?=$app_detail_num?>'">수정</button>
+                  <button type="button" onclick="confirmDel()">삭제</button>
+                </div>
+              <?php
+                }
+              ?>
            </div>
            <!-- web detail contents end -->
           </div>
@@ -105,8 +119,17 @@
       <?php include $_SERVER["DOCUMENT_ROOT"]."/gold/include/footer.php"?>
       <?php include $_SERVER['DOCUMENT_ROOT'].'/gold/php_process/connect/db_connect.php'?>
     </div>
-
-    
+      <script>
+        function confirmDel(){
+          let confirmCheck = confirm('정말로 삭제하시겠습니까?');
+          if(confirmCheck == false){
+            return false;
+          } else {
+            location.href='/gold/php_process/pages/app_detail_delete.php?num=<?=$app_detail_num?>';
+          }
+        }
+      </script>          
+                
       <script src="/gold/js/web_detail.js"></script>
       <script src="/gold/plugin/lightslider.js"></script>
       <script>

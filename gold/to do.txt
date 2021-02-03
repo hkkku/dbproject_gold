@@ -15,6 +15,9 @@
 14. 페이지네이션 갯수 한정
 15. 네이버 등으로 로그인
 16. 포인트 증가 기능 추가
+17. 어드민 뒤로가기 오류 수정 / 02.03
+18. 글 확인 <br> 출력 제거 
+19. 삭제 버튼 클릭 시 확인 취소 질의 기능 / 02.03
 
 include $_SERVER['DOCUMENT_ROOT'].'/gold/php_process/connect/db_connect.php';
 javascript:history.go(-1)
