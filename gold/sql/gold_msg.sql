@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- 생성 시간: 21-01-29 06:38
+-- 생성 시간: 21-02-04 03:41
 -- 서버 버전: 10.4.16-MariaDB
 -- PHP 버전: 7.4.12
 
@@ -54,7 +54,7 @@ ALTER TABLE `gold_msg`
 -- 테이블의 AUTO_INCREMENT `gold_msg`
 --
 ALTER TABLE `gold_msg`
-  MODIFY `GOLD_MSG_num` int(11) NOT NULL AUTO_INCREMENT COMMENT '고유번호';
+  MODIFY `GOLD_MSG_num` int(11) NOT NULL AUTO_INCREMENT COMMENT '고유번호', AUTO_INCREMENT=1;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

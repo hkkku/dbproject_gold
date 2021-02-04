@@ -1,5 +1,5 @@
 <?php
-  $web_num=$_GET['num'];
+  $web_num = $_GET['num'];
   // db connect
   include $_SERVER['DOCUMENT_ROOT'].'/gold/php_process/connect/db_connect.php';
   $sql = "select * from gold_web where GOLD_WEB_num = $web_num ";
@@ -19,7 +19,7 @@
   
 <!-- design input contents form -->
 <div class="webInputForm webDesignInput">
-  <form action="/gold/php_process/pages/web_update.php?num=<?$web_num?>" method="POST" name="web_form" enctype="multipart/form-data">
+  <form action="/gold/php_process/pages/web_update.php?num=<?=$web_num?>" method="POST" name="web_form" enctype="multipart/form-data">
     <div class="titleSer clear">
       <p class="title_input">
         <label for="title">Title</label>
@@ -40,13 +40,13 @@
     </div>
     <!-- title/serial/client end -->
     <div class="web_desc uploadDesc">
-      <textarea name="web_desc" placeholder="Web description here"><?=$web_result_des?></textarea>
+      <textarea name="web_desc"><?=$web_result_des?></textarea>
     </div>
     <!-- text description end -->
     <div class="uploadImg clear">
       <div class="uploadBox img1">
         <div class="inputControl">
-          <input class="uploadName" placeholder = "Main image">
+          <input class="uploadName" placeholder = "<?=$web_result_img?>">
           <label for="mainImage">SELECT IMAGE</label>
           <input type="file" id="mainImage" class="uploadHidden" name="main" accept="image/*" value = 1>
         </div>
@@ -56,7 +56,7 @@
       </div>
       <div class="uploadBox img2">
         <div class="inputControl">
-          <input class="uploadName" placeholder = "Mobile image">
+          <input class="uploadName" placeholder = "<?=$web_result_mimg?>">
           <label for="subImage">SELECT IMAGE</label>
           <input type="file" id="subImage" class="uploadHidden" name="mobile" accept="image/*" value = 1>
         </div>
@@ -66,7 +66,7 @@
       </div>
       <div class="uploadBox img3">
         <div class="inputControl">
-          <input class="uploadName" placeholder = "Thumbnail image(800*400)">
+          <input class="uploadName" placeholder = "<?=$web_result_thumb?>(800*400)">
           <label for="thumbImage">SELECT IMAGE</label>
           <input type="file" id="thumbImage" class="uploadHidden" name="thumbnail" accept="image/*" value = 1>
         </div>
