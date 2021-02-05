@@ -38,7 +38,7 @@
           </div>
 
           <!-- design input contents form -->
-          <div class="designInputForm webDesignInput">
+          <div class="designInputForm webDesignInput appInputForm">
             <form action="/gold/php_process/pages/app_insert.php" method="POST" name="app_form" enctype="multipart/form-data">
               <div class="titleSer clear">
                 <p class="title_input">
