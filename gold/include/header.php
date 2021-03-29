@@ -33,9 +33,9 @@ if(!isset($_SESSION)){
      <!-- <img src="img/banner.jpg" alt="" /> -->
      <span class="overlay"></span>
      <div class="slogan">
-       <h2>LUXURY <span>GOLD</span></h2>
+       <h2>DATABASE <span>Project</span></h2>
        <hr />
-       <p>passion for fashion</p>
+       <p>passion for database</p>
      </div>
    </div>
    <div class="headerBox">

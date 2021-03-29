@@ -3,7 +3,7 @@
 .webBoxes .webBox{width: 33.33%; height: auto; float: left; padding: 5px; } 
 
 
-.webBoxes .webBox>div{width: 100%; height: 100%; border: 1px solid #D0AF51; padding: 5px; position: relative;}
+.webBoxes .webBox>div{width: 100%; height: 100%; border: 1px solid #5446bd; padding: 5px; position: relative;}
 .webBoxes .webBox .boxOverlay{position: absolute; width: 100%; height: 100%; top: 0; left: 0; background: rgba(208, 175, 81, 0.7); display: flex; justify-content: center; align-items: center; border: 1px solid #fff; opacity: 0; visibility: hidden; transition: all 0.4s;}
 .webBoxes .boxOverlay i.fa{color: #fff; font-size: 25px; width: 50px; height: 50px; border: 1px solid #fff; border-radius: 50%; display: flex; justify-content: center; align-items: center;}
 
@@ -13,10 +13,10 @@
 .webBoxes .webBox .webImg img{width: 100%;}
 
 .webBoxes .webBox .webTxt{width: 100%; height: auto;  display: flex; align-items: center; justify-content: center;  text-align: center; flex-direction: column; padding: 15px 0;}
-.webBoxes .webBox .webTxt h2{color: #D0AF51; font-weight: 400; margin-bottom: 10px;}
+.webBoxes .webBox .webTxt h2{color: #5446bd; font-weight: 400; margin-bottom: 10px;}
 .webBoxes .webBox .webTxt em{font-style: normal; line-height: 1.4; font-weight: 300;}
 
 .btns{width: 100%; height: auto; margin: 0; justify-content: center; display: flex; transition: all 0.3s;}
 .web .btns a.commonBtn{margin-right: 1px;}
 
-.web .commonBtn:hover {background: #D0AF51; color: #fff;}
+.web .commonBtn:hover {background: #5446bd; color: #fff;}

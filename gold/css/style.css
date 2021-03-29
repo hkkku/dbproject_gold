@@ -9,25 +9,25 @@
 ol , ul{list-style: none;}
 a{text-decoration: none; color: #444;}
 body{font-size: 14px; font-family: "Open Sans", sans-serif;}
-input[type="checkbox"]{-webkit-appearance: auto; border-radius: 0; border: 1px solid #D0AF51;}
+input[type="checkbox"]{-webkit-appearance: auto; border-radius: 0; border: 1px solid #5446bd;}
 img{display: block;}
 button, input, textarea{outline: 0; font-family: 'Open Sans';}
 .clear::after{clear: both; display: block; content: '';} 
 .center{width: 100%; max-width: 1130px; height: auto; margin: 0 auto;}
-input::placeholder, textarea::placeholder{color: #D0AF51;}
+input::placeholder, textarea::placeholder{color: #5446bd;}
 input:focus , textarea:focus{background: #f8f8f8;}
 
 /* general common section style */
 .contents{padding: 50px 0;}
 .overlay{position: absolute; display: block; left: 0; top: 0; width: 100%; height: 100%;}
-a.commonBtn , button.commonBtn {width: 30%; display: inline-block; padding: 10px 20px; border: 1px solid #D0AF51; color: #D0AF51; text-transform: uppercase; text-align: center; margin-top: 10px; transition: all 0.4s; background: #fff;}
+a.commonBtn , button.commonBtn {width: 30%; display: inline-block; padding: 10px 20px; border: 1px solid #5446bd; color: #5446bd; text-transform: uppercase; text-align: center; margin-top: 10px; transition: all 0.4s; background: #fff;}
 
 /* common title style */
 .title{width: auto; height: auto; float: left;}
 .title h2{font-size: 50px; font-weight: 300; text-transform: uppercase;}
 .title .linkBox{width: 100%; display: flex; align-items: center;}
-.title .line{width: 10%; display: block; height: 1px; background: #D0AF51; float: left; transition: all 0.4s;}
-.title a{display: block; width: 40%; float: left; text-align: right; text-transform: uppercase; font-size: 12px; font-weight: 400; color:  #D0AF51; transition: all 0.3s;}
+.title .line{width: 10%; display: block; height: 1px; background: #5446bd; float: left; transition: all 0.4s;}
+.title a{display: block; width: 40%; float: left; text-align: right; text-transform: uppercase; font-size: 12px; font-weight: 400; color:  #5446bd; transition: all 0.3s;}
 
 .title:hover a{text-decoration: underline;}
 .title:hover .line{width: 60%;}
@@ -36,8 +36,8 @@ a.commonBtn , button.commonBtn {width: 30%; display: inline-block; padding: 10px
 .hasTitle .title{width: auto; height: auto; float: none; position: relative; left: 50%; transform: translateX(-50%);}
 .hasTitle .title h2{font-size: 50px; font-weight: 300; text-align: center; color: #333;}
 .hasTitle .title .linkBox{width: 100%; display: flex; align-items: center; justify-content: center; padding: 30px 0;}
-.hasTitle .title .line{width: 37%; display: block; height: 1px; background: #D0AF51; float: none; transition: all 0.4s;}
-.hasTitle .title a{display: block; width: 15%; float: none; text-align: center; color: #D0AF51; transition: all 0.3s;}
+.hasTitle .title .line{width: 37%; display: block; height: 1px; background: #5446bd; float: none; transition: all 0.4s;}
+.hasTitle .title a{display: block; width: 15%; float: none; text-align: center; color: #5446bd; transition: all 0.3s;}
 
 .hasTitle .title:hover a{text-decoration: none; color: #ccc;}
 .hasTitle .title:hover .line{width: 15%;}
@@ -50,16 +50,16 @@ a.commonBtn , button.commonBtn {width: 30%; display: inline-block; padding: 10px
 .topMain .headerBox{width: 60%; float: right; overflow: hidden; height: 50vh; position: relative; background: url(../img/header-img.jpg) no-repeat center; background-size: cover;}
 .topMain .headerBox img{width: 100%; height: 50vh;}
 .topMain .bannerBox>.overlay{background: rgba(0, 0, 0, 0.6); z-index: 1;}
-.topMain .headerBox>.overlay{background: rgba(208, 175, 81, 0.4);}
+/* .topMain .headerBox>.overlay{background: rgba(208, 175, 81, 0.4);} */
 
 .topMain .bannerBox .slogan{width: 100%; z-index: 2; position: absolute; color: #fff; right: 40px; top: 50%; transform: translateY(-50%); text-align: right;}
-.topMain .bannerBox .slogan h2{font-size: 3.5vw; color: #D0AF51;}
+.topMain .bannerBox .slogan h2{font-size: 3.5vw; color: #5446bd;}
 .topMain .bannerBox .slogan h2 span{color: #fff;}
 .topMain .bannerBox .slogan hr{width: 20%; display: inline-block; margin-bottom: 3px; border: 0; border-bottom: 1px solid #eee;}
 .topMain .bannerBox .slogan p{text-transform: uppercase; color: #bbb; display: inline-block; font-size: 12px; letter-spacing: 2px; font-weight: 600;}
 
 /* bannerBox sns style */
-.topMain .loginWrap{width: 40%; height: 60px; background: #ddd; float: left; display: flex; justify-content: space-between;}
+.topMain .loginWrap{width: 40%; height: 60px; background: #dddaf0; float: left; display: flex; justify-content: space-between;}
 .topMain .logBox{width: 100%; height: 60px; display: flex; align-items: center; justify-content: flex-end;}
 .topMain .logBox a{display: inline-block; padding: 0 25px; color: #fff; border-left: 1px solid #fff; font-weight: 700; transition: all 0.3s; font-size: 12px;}
 .topMain .logBox a:first-child{border-left: 0;}
@@ -67,16 +67,16 @@ a.commonBtn , button.commonBtn {width: 30%; display: inline-block; padding: 10px
 .topMain .logBox a:hover{color: #333;}
 
 /* headerBox gnb style */
-.topMain .gnb{width: 60%; height: 60px; background: #000; float: right;}
+.topMain .gnb{width: 60%; height: 60px; background: #dddaf0; float: right;}
 /* .topMain .gnb ul{} */
 .topMain .gnb ul li{float: left; height: 60px; padding: 0 35px; display: flex; justify-content: center; align-items: center; transition: all 0.4s;}
 .topMain .gnb ul li:hover,
-.topMain .gnb ul li.active{background: #333;}
-.topMain .gnb ul a{color: #D0AF51; font-size: 16px; font-weight: 400;}
+.topMain .gnb ul li.active{background: #9990d1;}
+.topMain .gnb ul a{color: #5446bd; font-size: 16px; font-weight: 400;}
 
 /* mobileMenu style */
-.mobileMenu{width: 30px; height: 30px; border: 1px solid #D0AF51; display: flex; justify-content: center; align-items: center; float: right; display: none;}
-.mobileMenu i.fa{color: #D0AF51; font-size: 22px;}
+.mobileMenu{width: 30px; height: 30px; border: 1px solid #5446bd; display: flex; justify-content: center; align-items: center; float: right; display: none;}
+.mobileMenu i.fa{color: #5446bd; font-size: 22px;}
 
 /* new arrivals section style */
 .arrivals .arrivalBox{width: 100%; height: auto; float: left; display: flex; justify-content: space-between; padding: 50px 0 0;}
@@ -91,7 +91,7 @@ a.commonBtn , button.commonBtn {width: 30%; display: inline-block; padding: 10px
 .arrivals .arrivalCon .arrivalTxt em{font-style: normal; font-weight: 400; font-size: 16px; letter-spacing: 2px;}
 
 .arrivals .arrivalCon .best a{display: inline-block; color: #fff; font-size: 16px; padding: 5px 50px; border: 1px solid #fff; transition: all 0.4s;}
-.arrivals .arrivalCon .best a:hover{background: #D0AF51; border: 1px solid #D0AF51;}
+.arrivals .arrivalCon .best a:hover{background: #5446bd; border: 1px solid #5446bd;}
 .arrivals .arrivalCon .best p{font-size: 25px; font-weight: 700; letter-spacing: 2px;}
 
 /* product type section style */
@@ -101,8 +101,8 @@ a.commonBtn , button.commonBtn {width: 30%; display: inline-block; padding: 10px
 .product .productBox>div{width: 50%; height: auto; float: left;}
 .product .productBox>div>.productImg{width: 50%; padding: 5px; position: relative;}
 .product .productBox>div>.productImg>img{width: 100%; transition: all 0.4s;}
-.product .productImg>.outline{position: absolute; width: 80%; height: 80%; left: 10%; top: 10%; border: 1px solid #D0AF51; display: flex; align-items: center; justify-content: center; opacity: 0; transition: all 0.4s;}
-.product .productImg>.outline i.fa{width: 40px; height: 40px; border: 3px solid #D0AF51; border-radius: 50%; display: block; font-size: 20px;  color: #D0AF51; display: flex; align-items: center; justify-content: center;}
+.product .productImg>.outline{position: absolute; width: 80%; height: 80%; left: 10%; top: 10%; border: 1px solid #5446bd; display: flex; align-items: center; justify-content: center; opacity: 0; transition: all 0.4s;}
+.product .productImg>.outline i.fa{width: 40px; height: 40px; border: 3px solid #5446bd; border-radius: 50%; display: block; font-size: 20px;  color: #5446bd; display: flex; align-items: center; justify-content: center;}
 
 .product .productBox>div>.productImg:hover>img{filter: blur(3px);}
 .product .productBox>div>.productImg:hover>.outline{opacity: 1;}
@@ -110,46 +110,46 @@ a.commonBtn , button.commonBtn {width: 30%; display: inline-block; padding: 10px
 .product .productBox .boxLeft{display: flex; flex-wrap: wrap;}
 .product .productBox .boxRight{padding: 5px;}
 
-.product .boxRight .productTxt{width: 100%; height: 100%; border: 1px solid #D0AF51; padding: 5px;}
-.product .boxRight .productTxt>div{width: 100%; height: 100%; border: 1px solid #D0AF51; background: #fff; display: flex; justify-content: center; flex-direction: column; padding: 30px;}
+.product .boxRight .productTxt{width: 100%; height: 100%; border: 1px solid #5446bd; padding: 5px;}
+.product .boxRight .productTxt>div{width: 100%; height: 100%; border: 1px solid #5446bd; background: #fff; display: flex; justify-content: center; flex-direction: column; padding: 30px;}
 
 .product .boxRight .productTxt>div>h2{font-size: 30px; font-weight: 800; color: gray; transform: translateY(30px); opacity: 0; animation: slideUp 0.4s 1; animation-fill-mode: forwards;}
 
 .product .boxRight .productTxt>div>p{margin: 15px 0; font-size: 16px; line-height: 1.6; font-weight: 300; color: gray; transform: translateY(30px); opacity: 0; animation: slideUp 0.4s 1; animation-fill-mode: forwards; animation-delay: 0.4s;}
-.product .boxRight .productTxt>div>a{width: 30%; display: inline-block; padding: 10px 20px; border: 1px solid #D0AF51; color: #D0AF51; text-transform: uppercase; text-align: center; margin-top: 10px; transition: all 0.4s; transform: translateY(30px); opacity: 0; animation: slideUp 0.4s 1; animation-fill-mode: forwards; animation-delay: 0.8s;}
-.product .boxRight .productTxt>div>a:hover{background: #D0AF51; color: #fff;}
+.product .boxRight .productTxt>div>a{width: 30%; display: inline-block; padding: 10px 20px; border: 1px solid #5446bd; color: #5446bd; text-transform: uppercase; text-align: center; margin-top: 10px; transition: all 0.4s; transform: translateY(30px); opacity: 0; animation: slideUp 0.4s 1; animation-fill-mode: forwards; animation-delay: 0.8s;}
+.product .boxRight .productTxt>div>a:hover{background: #5446bd; color: #fff;}
 
 /* ours section style */
 .fashionBox{width: 100%; height: auto; float: left; display: flex; padding: 50px 0;}
 .fashionBox.men{border-bottom: 1px solid #ddd;}
 
 .fashionBox .fashionTxt h2{color: #333; font-size: 24px; font-weight: 400;}
-.fashionBox .fashionTxt em{font-style: normal; color: #D0AF51;}
+.fashionBox .fashionTxt em{font-style: normal; color: #5446bd;}
 .fashionBox .fashionTxt p{margin: 15px 0;}
 .fashionBox .fashionTxt{display: flex; align-items: center; justify-content: center; flex-direction: column; padding: 20px; text-align: center;}
-.fashionBox .fashionTxt a{display: inline-block; padding: 10px 40px; border: 1px solid #D0AF51; transition: all 0.4s; text-transform: uppercase; color: #D0AF51;}
-.fashionBox .fashionTxt a:hover{color: #fff; background: #D0AF51;}
+.fashionBox .fashionTxt a{display: inline-block; padding: 10px 40px; border: 1px solid #5446bd; transition: all 0.4s; text-transform: uppercase; color: #5446bd;}
+.fashionBox .fashionTxt a:hover{color: #fff; background: #5446bd;}
 
 .fashionBox>div{width: 25%; padding: 10px;}
-.fashionBox>div>div{padding: 10px; border: 1px solid #D0AF51; text-align: center;}
+.fashionBox>div>div{padding: 10px; border: 1px solid #5446bd; text-align: center;}
 .fashionBox>div>div>img{width: 100%;}
-.fashionBox>div>div>h2{color: #D0AF51; font-weight: 600; padding: 5px 0; font-size: 18px;}
+.fashionBox>div>div>h2{color: #5446bd; font-weight: 600; padding: 5px 0; font-size: 18px;}
 .fashionBox>div>div>em{color: #838383; font-style: normal;}
-.fashionBox>div>div>a{display: block; width: 100%; height: auto; padding: 5px 0; border: 1px solid #D0AF51; margin-top: 15px; color: #D0AF51; transition: all 0.4s;}
-.fashionBox>div>div>a:hover{color: #fff; background: #D0AF51;}
+.fashionBox>div>div>a{display: block; width: 100%; height: auto; padding: 5px 0; border: 1px solid #5446bd; margin-top: 15px; color: #5446bd; transition: all 0.4s;}
+.fashionBox>div>div>a:hover{color: #fff; background: #5446bd;}
 
 /* about section style */
 .about{background: #181818; border-bottom: 1px solid #333;}
-.hasTitle.about .title h2{color: #D0AF51;} 
+.hasTitle.about .title h2{color: #5446bd;} 
 .about .aboutTxt{width: 100%; height: auto; text-align: center; color: #bbb; padding-top: 30px;}
 .about .aboutTxt p{font-weight: 300;}
 .about .aboutTxt p.address{margin-top: 15px; color: #ddd;}
-.about .aboutTxt p.address a{color: #D0AF51; font-weight: 400;}
+.about .aboutTxt p.address a{color: #5446bd; font-weight: 400;}
 
 .about .sns{width: 100%; height: auto; margin: 20px 0; display: flex; align-items: center; justify-content: center;}
 .about .sns i.fa{width: 30px; height: 30px; color: #ddd; margin: 5px; border: 1px solid #ddd; border-radius: 50%; display: flex; align-items: center; justify-content: center;}
 
-.about .sns i.fa:hover{background: #D0AF51;}
+.about .sns i.fa:hover{background: #5446bd;}
 
 /* contact section style */
 .hasTitle .title{padding-bottom: 30px; text-align: center; width: auto; height: auto; float: none; position: relative; left: 50%; transform: translateX(-50%);}
@@ -158,12 +158,12 @@ a.commonBtn , button.commonBtn {width: 30%; display: inline-block; padding: 10px
 .contact .contactBox>div{width: 50%; height: auto; padding: 5px;}
 
 .contact .mapBox{width: 100%; display: flex; justify-content: center;  height: auto;}
-.contact .mapBox .map{border: 1px solid #D0AF51; width: 100%; height: 100%; padding: 10px;}
+.contact .mapBox .map{border: 1px solid #5446bd; width: 100%; height: 100%; padding: 10px;}
 .contact .mapBox iframe{width: 100%; height: 100%; border: 0;}
 
-.contact .formBox form{border: 1px solid #D0AF51; padding: 10px;}
+.contact .formBox form{border: 1px solid #5446bd; padding: 10px;}
 .contact .formBox form input,
-.contact .formBox form textarea{display: block; padding: 15px; border: 1px solid #D0AF51; border-radius: 0; outline: 0;}
+.contact .formBox form textarea{display: block; padding: 15px; border: 1px solid #5446bd; border-radius: 0; outline: 0;}
 
 .contact .formBox form .nameMail{width: 100%; height: auto; display: flex; justify-content: space-between;}
 .contact .formBox form .nameMail>input{width: calc(50% - 5px);}
@@ -172,12 +172,12 @@ a.commonBtn , button.commonBtn {width: 30%; display: inline-block; padding: 10px
 .contact .formBox form .message>textarea{width: 100%; height: 300px; resize: none;}
 
 .contact .formBox form a,
-.contact .formBox form button{display: inline-block; width: 100%; color: #D0AF51; padding: 15px 0; border: 1px solid #D0AF51; margin-top: 10px; text-align: center; font-weight: 400; transition: all 0.3s; background: #fff;}
+.contact .formBox form button{display: inline-block; width: 100%; color: #5446bd; padding: 15px 0; border: 1px solid #5446bd; margin-top: 10px; text-align: center; font-weight: 400; transition: all 0.3s; background: #fff;}
 .contact .formBox form a:hover,
-.contact .formBox form button:hover{background: #D0AF51; color: #fff;}
+.contact .formBox form button:hover{background: #5446bd; color: #fff;}
 
 /* footer style */
 footer{width: 100%; height: auto; background: #181818; text-align: center;}
 footer p{color: #ddd; text-transform: uppercase; font-weight: 300; padding: 30px 0;}
-footer p span{color: #D0AF51; font-weight: 400;}
+footer p span{color: #5446bd; font-weight: 400;}
 
