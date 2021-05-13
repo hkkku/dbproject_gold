@@ -4,7 +4,6 @@
 
 .webDesignInput .titleSer{width: 100%; height: auto; display: flex; justify-content: space-around;}
 .webDesignInput .titleSer p{width: 33%;}
-/* .designInputForm .titleSer p.serial_input{float: right;} */
 .webDesignInput .titleSer p label{background: #5446bd; color: #fff; padding: 10.5px 10px; display: block; width: 25%; text-align: center; float: left;}
 .webDesignInput .titleSer p input{width: 75%; border: 1px solid #5446bd; padding: 10px; float: left;}
 

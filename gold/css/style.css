@@ -80,7 +80,7 @@ a.commonBtn , button.commonBtn {width: 30%; display: inline-block; padding: 10px
 
 /* new arrivals section style */
 .arrivals .arrivalBox{width: 100%; height: auto; float: left; display: flex; justify-content: space-between; padding: 50px 0 0;}
-.arrivals .arrivalBox .arrivalCon{width: 30%; height: auto; _float: left; _margin-left: 5%; position: relative; overflow: hidden;}
+.arrivals .arrivalBox .arrivalCon{width: 30%; height: auto; position: relative; overflow: hidden;}
 .arrivals .arrivalBox .arrivalCon img{width: 100%;}
 /* .arrivals .arrivalBox .arrivalCon:first-child{margin-left: 0;} */
 .arrivals .arrivalBox .arrivalCon .overlay{background: rgba(208, 175, 81, 0.4);}

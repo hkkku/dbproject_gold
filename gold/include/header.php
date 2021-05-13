@@ -30,7 +30,6 @@ if(!isset($_SESSION)){
  <!-- top main section -->
  <div class="topMain clear">
    <div class="bannerBox">
-     <!-- <img src="img/banner.jpg" alt="" /> -->
      <span class="overlay"></span>
      <div class="slogan">
        <h2>DATABASE <span>Project</span></h2>
@@ -39,7 +38,6 @@ if(!isset($_SESSION)){
      </div>
    </div>
    <div class="headerBox">
-     <!-- <img src="img/header-img.jpg" alt="" /> -->
      <span class="overlay"></span>
    </div>
    <div class="loginWrap">
@@ -77,7 +75,6 @@ if(!isset($_SESSION)){
        <li><a href="/gold/pages/design/design.php">DESIGN</a></li>
        <li><a href="/gold/pages/web/web.php">WEB</a></li>
        <li><a href="/gold/pages/app/app.php">APP</a></li>
-       <li><a href="#">ABOUT</a></li>
        <li><a href="/gold/pages/qna/qna.php">Q&A</a></li>
      </ul>
      <div class="mobileMenu">

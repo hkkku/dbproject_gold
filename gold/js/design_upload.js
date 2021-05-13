@@ -16,26 +16,26 @@ $(function(){
   $('#thumbImage').on("change", thumbFileSelect);
 });
 
-let img1FileSelect = function(event){
+let img1FileSelect = function(event) {
   let input = event.target;
   let reader = new FileReader();
 
-  reader.onload = function(){
-    let dataUrl = reader.result;
-    let output = document.getElementById("img1");
-    output.src = dataUrl;
+  reader.onload = function() {
+      let dataUrl = reader.result;
+      let output = document.getElementById("img1");
+      output.src = dataUrl;
   };
   reader.readAsDataURL(input.files[0]);
 }
 
-let img2FileSelect = function(event){
+let img2FileSelect = function(event) {
   let input = event.target;
   let reader = new FileReader();
 
-  reader.onload = function(){
-    let dataUrl = reader.result;
-    let output = document.getElementById("img2");
-    output.src = dataUrl;
+  reader.onload = function() {
+      let dataUrl = reader.result;
+      let output = document.getElementById("img2");
+      output.src = dataUrl;
   };
   reader.readAsDataURL(input.files[0]);
 }

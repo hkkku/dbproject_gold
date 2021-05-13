@@ -1,197 +1,64 @@
-.admin .adminTabs {
-  width: 80%;
-  height: auto;
-  text-align: center;
-  margin: 0 auto 30px;
-}
-.admin .adminTabs button {
-  border: 1px solid #5446bd;
-  font-weight: 600;
-  background: #fff;
-  padding: 10px 40px;
-  transition: all 0.4s;
-  color: #5446bd;
-}
-.admin .adminTabs button i {
-  font-style: normal;
-  display: none;
-}
+.admin .adminTabs {width: 80%; height: auto; text-align: center; margin: 0 auto 30px;}
+.admin .adminTabs button {border: 1px solid #5446bd; font-weight: 600; background: #fff; padding: 10px 40px; transition: all 0.4s; color: #5446bd;}
+.admin .adminTabs button i {font-style: normal; display: none;}
 .admin .adminTabs button:hover,
-.admin .adminTabs button.active {
-  background: #5446bd;
-  color: #fff;
-}
+.admin .adminTabs button.active {background: #5446bd; color: #fff;}
 
-.admin .adminTable {
-  width: 80%;
-  height: auto;
-  margin: 0 auto 10px;
-}
-.admin .adminTable li {
-  width: 100%;
-  height: auto;
-}
+.admin .adminTable {width: 80%; height: auto; margin: 0 auto 10px;}
+.admin .adminTable li {width: 100%; height: auto;}
 
-.admin .adminTable li:nth-child(odd) {
-  background: #f0f0f0;
-}
-.admin .adminTable li.adminTitle {
-  background: #5446bd;
-}
+.admin .adminTable li:nth-child(odd) {background: #f0f0f0;}
+.admin .adminTable li.adminTitle {background: #5446bd;}
 
-.admin .adminTable span {
-  text-align: center;
-  display: block;
-  float: left;
-  padding: 10px 0;
-  font-family: "Noto Sans KR";
-  font-weight: 300;
-}
-.admin .adminTable .adminTitle span {
-  color: #fff;
-}
+.admin .adminTable span {text-align: center; display: block; float: left; padding: 10px 0; font-family: "Noto Sans KR"; font-weight: 300;}
+.admin .adminTable .adminTitle span {color: #fff;}
 .admin .adminTable .adminContents span,
-.admin .adminTable .adminContents span a {
-  color: #848484;
-}
-.admin .adminTable li.adminContents:last-child {
-  border-bottom: 1px solid #5446bd;
-}
+.admin .adminTable .adminContents span a {color: #848484;}
+.admin .adminTable li.adminContents:last-child {border-bottom: 1px solid #5446bd;}
 
-.admin .adminTable li.adminContents span i {
-  color: #5446bd;
-  font-size: 18px;
-  line-height: 1.6;
-}
-.admin .adminTable li.adminContents span button {
-  background: 0;
-  outline: 0;
-  border: 0;
-}
+.admin .adminTable li.adminContents span i {color: #5446bd; font-size: 18px; line-height: 1.6;}
+.admin .adminTable li.adminContents span button {background: 0; outline: 0; border: 0;}
 
 /* admin message tab style */
 
-.admin .adminTable span.msgNum {
-  width: 5%;
-}
-.admin .adminTable span.msgName {
-  width: 15%;
-}
-.admin .adminTable span.msgTit {
-  width: 30%;
-}
-.admin .adminTable span.msgReg {
-  width: 20%;
-}
-.admin .adminTable span.msgEmail {
-  width: 20%;
-}
-.admin .adminTable span.msgDelete {
-  width: 10%;
-}
+.admin .adminTable span.msgNum {width: 5%;}
+.admin .adminTable span.msgName {width: 15%;}
+.admin .adminTable span.msgTit {width: 30%;}
+.admin .adminTable span.msgReg {width: 20%;}
+.admin .adminTable span.msgEmail {width: 20%;}
+.admin .adminTable span.msgDelete {width: 10%;}
 
-.adminSearch {
-  display: flex;
-  justify-content: flex-end;
-  flex-wrap: wrap;
-}
-.adminPanel div.search {
-  float: right;
-}
+.adminSearch {display: flex; justify-content: flex-end; flex-wrap: wrap;}
+.adminPanel div.search {float: right;}
 
 /* admin view page style */
-.adminViewBtns {
-  width: 80%;
-  height: auto;
-  margin: auto;
-  text-align: right;
-}
-.adminViewBtns a {
-  padding: 5px 15px;
-  border: 1px solid #5446bd;
-  display: inline-block;
-  background: #5446bd;
-  transition: all 0.4s;
-  color: #fff;
-  font-weight: 600;
-  margin-left: 0;
-}
-.adminViewBtns a:hover {
-  color: #5446bd;
-  background: #fff;
-}
-.adminView div.writeBox {
-  margin-bottom: 10px;
-}
+.adminViewBtns {width: 80%; height: auto; margin: auto; text-align: right;}
+.adminViewBtns a {padding: 5px 15px; border: 1px solid #5446bd; display: inline-block; background: #5446bd; transition: all 0.4s; color: #fff; font-weight: 600; margin-left: 0;}
+.adminViewBtns a:hover {color: #5446bd; background: #fff;}
+.adminView div.writeBox {margin-bottom: 10px;}
 
 /* admin member tab style */
-.memberTab span {
-  line-height: 1.6;
-}
-.memberTab span.memNum {
-  width: 10%;
-}
-.memberTab span.memId {
-  width: 20%;
-}
-.memberTab span.memName {
-  width: 20%;
-}
-.memberTab span.memLv {
-  width: 15%;
-}
-.memberTab span.memPt {
-  width: 15%;
-}
-.memberTab span.memUpdate {
-  width: 10%;
-}
-.memberTab span.memDelete {
-  width: 10%;
-}
+.memberTab span {line-height: 1.6;}
+.memberTab span.memNum {width: 10%;}
+.memberTab span.memId {width: 20%;}
+.memberTab span.memName {width: 20%;}
+.memberTab span.memLv {width: 15%;}
+.memberTab span.memPt {width: 15%;}
+.memberTab span.memUpdate {width: 10%;}
+.memberTab span.memDelete {width: 10%;}
 
 .memberTab span.memLv input,
-.memberTab span.memPt input {
-  width: 80%;
-  border: 1px solid #5446bd;
-  border-radius: 0;
-  outline: 0;
-  color: #848484;
-  text-align: center;
-  padding: 3px 0;
-}
+.memberTab span.memPt input {width: 80%; border: 1px solid #5446bd; border-radius: 0; outline: 0; color: #848484; text-align: center; padding: 3px 0;}
 
 /* admin qna tab style */
-.qnaTab span.qnaCheck {
-  width: 5%;
-}
-.qnaTab span.qnaNum {
-  width: 15%;
-}
-.qnaTab span.qnaId {
-  width: 15%;
-}
-.qnaTab span.qnaTit {
-  width: 40%;
-}
-.qnaTab span.qnaReg {
-  width: 15%;
-}
-.qnaTab span.qnaHit {
-  width: 10%;
-}
+.qnaTab span.qnaCheck {width: 5%;}
+.qnaTab span.qnaNum {width: 15%;}
+.qnaTab span.qnaId {width: 15%;}
+.qnaTab span.qnaTit {width: 40%;}
+.qnaTab span.qnaReg {width: 15%;}
+.qnaTab span.qnaHit {width: 10%;}
 
 .qnaTab .checkDeleteBtn,
-.qnaResultBtns button {
-  border: 0;
-  outline: 0;
-  background: #5446bd;
-  color: #fff;
-  padding: 5px 15px;
-  height: 30px;
-  margin-top: 10px;
-}
+.qnaResultBtns button {border: 0; outline: 0; background: #5446bd; color: #fff; padding: 5px 15px; height: 30px; margin-top: 10px;}
 
-.qnaResultBtns {
-  text-align: right;
-}
+.qnaResultBtns {text-align: right;}
