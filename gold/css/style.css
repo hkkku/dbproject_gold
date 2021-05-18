@@ -23,8 +23,8 @@ input:focus , textarea:focus{background: #f8f8f8;}
 a.commonBtn , button.commonBtn {width: 30%; display: inline-block; padding: 10px 20px; border: 1px solid #5446bd; color: #5446bd; text-transform: uppercase; text-align: center; margin-top: 10px; transition: all 0.4s; background: #fff;}
 
 /* common title style */
-.title{width: auto; height: auto; float: left;}
-.title h2{font-size: 50px; font-weight: 300; text-transform: uppercase;}
+.title{width: auto; height: auto;}
+.title h2{font-size: 50px; font-weight: 300; text-transform: uppercase; text-align: center;}
 .title .linkBox{width: 100%; display: flex; align-items: center;}
 .title .line{width: 10%; display: block; height: 1px; background: #5446bd; float: left; transition: all 0.4s;}
 .title a{display: block; width: 40%; float: left; text-align: right; text-transform: uppercase; font-size: 12px; font-weight: 400; color:  #5446bd; transition: all 0.3s;}
@@ -49,7 +49,7 @@ a.commonBtn , button.commonBtn {width: 30%; display: inline-block; padding: 10px
 .topMain .bannerBox img{width: 100%; height: 50vh;}
 .topMain .headerBox{width: 60%; float: right; overflow: hidden; height: 50vh; position: relative; background: url(../img/header-img.jpg) no-repeat center; background-size: cover;}
 .topMain .headerBox img{width: 100%; height: 50vh;}
-.topMain .bannerBox>.overlay{background: rgba(0, 0, 0, 0.6); z-index: 1;}
+.topMain .bannerBox>.overlay{background: rgba(0, 0, 0, 0.3); z-index: 1;}
 /* .topMain .headerBox>.overlay{background: rgba(208, 175, 81, 0.4);} */
 
 .topMain .bannerBox .slogan{width: 100%; z-index: 2; position: absolute; color: #fff; right: 40px; top: 50%; transform: translateY(-50%); text-align: right;}
@@ -78,21 +78,22 @@ a.commonBtn , button.commonBtn {width: 30%; display: inline-block; padding: 10px
 .mobileMenu{width: 30px; height: 30px; border: 1px solid #5446bd; display: flex; justify-content: center; align-items: center; float: right; display: none;}
 .mobileMenu i.fa{color: #5446bd; font-size: 22px;}
 
-/* new arrivals section style */
-.arrivals .arrivalBox{width: 100%; height: auto; float: left; display: flex; justify-content: space-between; padding: 50px 0 0;}
-.arrivals .arrivalBox .arrivalCon{width: 30%; height: auto; position: relative; overflow: hidden;}
-.arrivals .arrivalBox .arrivalCon img{width: 100%;}
-/* .arrivals .arrivalBox .arrivalCon:first-child{margin-left: 0;} */
-.arrivals .arrivalBox .arrivalCon .overlay{background: rgba(208, 175, 81, 0.4);}
+/* new cateList section style */
+.cateList .title h2{margin-top: 50px;}
+.cateList .arrivalBox{width: 100%; height: auto; float: left; display: flex; justify-content: space-between; padding: 50px 0 0;}
+.cateList .arrivalBox .arrivalCon{width: 30%; height: auto; position: relative; overflow: hidden;}
+.cateList .arrivalBox .arrivalCon img{width: 100%;}
+/* .cateList .arrivalBox .arrivalCon:first-child{margin-left: 0;} */
+.cateList .arrivalBox .arrivalCon .overlay{background: rgba(208, 175, 81, 0.4);}
 
-.arrivals .arrivalCon .best ,
-.arrivals .arrivalCon .arrivalTxt{position: absolute; width: 100%; top: 50%; transform: translateY(-50%); left: 0; text-align: center; z-index: 5; color: #fff;}
-.arrivals .arrivalCon .arrivalTxt h2{font-family: 'Dancing Script'; font-size: 30px;}
-.arrivals .arrivalCon .arrivalTxt em{font-style: normal; font-weight: 400; font-size: 16px; letter-spacing: 2px;}
+.cateList .arrivalCon .best ,
+.cateList .arrivalCon .arrivalTxt{position: absolute; width: 100%; top: 50%; transform: translateY(-50%); left: 0; text-align: center; z-index: 5; color: #fff;}
+.cateList .arrivalCon .arrivalTxt h2{font-family: 'Dancing Script'; font-size: 30px;}
+.cateList .arrivalCon .arrivalTxt em{font-style: normal; font-weight: 400; font-size: 16px; letter-spacing: 2px;}
 
-.arrivals .arrivalCon .best a{display: inline-block; color: #fff; font-size: 16px; padding: 5px 50px; border: 1px solid #fff; transition: all 0.4s;}
-.arrivals .arrivalCon .best a:hover{background: #5446bd; border: 1px solid #5446bd;}
-.arrivals .arrivalCon .best p{font-size: 25px; font-weight: 700; letter-spacing: 2px;}
+.cateList .arrivalCon .best a{display: inline-block; color: #fff; font-size: 16px; padding: 5px 50px; border: 1px solid #fff; transition: all 0.4s;}
+.cateList .arrivalCon .best a:hover{background: #5446bd; border: 1px solid #5446bd;}
+.cateList .arrivalCon .best p{font-size: 25px; font-weight: 700; letter-spacing: 2px;}
 
 /* product type section style */
 .product{background: #ddd;}

@@ -32,9 +32,9 @@ if(!isset($_SESSION)){
    <div class="bannerBox">
      <span class="overlay"></span>
      <div class="slogan">
-       <h2>DATABASE <span>Project</span></h2>
+       <h2>PLANT<span>ive</span></h2>
        <hr />
-       <p>passion for database</p>
+       <p>당신의 일상과 함께하는 식물 카탈로그</p>
      </div>
    </div>
    <div class="headerBox">

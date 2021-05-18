@@ -25,13 +25,13 @@
 @media screen and (max-width:950px){
   .topMain .gnb ul li{padding: 0 16px;}
 
-  /* .arrivals .arrivalBox .arrivalCon{height: 350px;} */
-  .arrivals .arrivalBox .arrivalCon{width: 32%;}
-  .arrivals .arrivalCon .arrivalTxt h2{font-size: 25px;}
-  .arrivals .arrivalCon .arrivalTxt em{font-size: 12px;}
+  /* .cateList .arrivalBox .arrivalCon{height: 350px;} */
+  .cateList .arrivalBox .arrivalCon{width: 32%;}
+  .cateList .arrivalCon .arrivalTxt h2{font-size: 25px;}
+  .cateList .arrivalCon .arrivalTxt em{font-size: 12px;}
 
-  .arrivals .arrivalCon .best a{font-size: 14px; padding: 5px 35px;}
-  .arrivals .arrivalCon .best p{font-size: 20px; font-weight: 700;}
+  .cateList .arrivalCon .best a{font-size: 14px; padding: 5px 35px;}
+  .cateList .arrivalCon .best p{font-size: 20px; font-weight: 700;}
 
   .fashionBox{padding: 25px 0;}
   .fashionBox .fashionTxt p{display:none;}
@@ -191,8 +191,8 @@
   .deWeDetail .title a{display: block; width: 100%; float: none; text-align: center;}
 
 
-  .arrivals .arrivalBox{flex-direction: column; justify-content: center; align-items: center; padding: 30px 0;}
-  .arrivals .arrivalBox .arrivalCon{width: 70%; margin-bottom: 10px;}
+  .cateList .arrivalBox{flex-direction: column; justify-content: center; align-items: center; padding: 30px 0;}
+  .cateList .arrivalBox .arrivalCon{width: 70%; margin-bottom: 10px;}
   
   .product .productBox{margin: 30px 0 0;}
 
@@ -343,7 +343,7 @@
 
   .mobileMenu{display: flex; z-index: 999;}
 
-  .arrivals .arrivalBox .arrivalCon{width: 90%;}
+  .cateList .arrivalBox .arrivalCon{width: 90%;}
 
   .product .productBox .boxLeft{flex-wrap: wrap;}
 

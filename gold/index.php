@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gold</title>
+    <title>Study List</title>
     <!-- font awesome link -->
     <link
       rel="stylesheet"
@@ -26,15 +26,11 @@
 
       <?php include $_SERVER["DOCUMENT_ROOT"]."/gold/include/header.php"?>
       <!-- new arrival section -->
-      <section class="contents arrivals">
+      <section class="contents cateList">
         <div class="center clear">
           <!-- title width common style -->
           <div class="title">
-            <h2>NEW ARRIVALS</h2>
-            <div class="linkBox">
-              <span class="line"></span>
-              <a href="#">view all products</a>
-            </div>
+            <h2>About Plantive</h2>
           </div>
           <!-- title width common style end -->
 
@@ -76,10 +72,6 @@
         <div class="center clear">
           <div class="title">
             <h2>DESIGN PROJECTS</h2>
-            <div class="linkBox">
-              <span class="line"></span>
-              <a href="#">view all products</a>
-            </div>
           </div>
           <!-- end of commontitle -->
           <div class="productBox clear">
@@ -133,10 +125,6 @@
         <div class="center clear">
           <div class="title">
             <h2>WEB & APP PREVIEW</h2>
-            <div class="linkBox">
-              <span class="line"></span>
-              <a href="#">view all products</a>
-            </div>
           </div>
           <div class="fashionBox men">
             <div class="fashionTxt">
