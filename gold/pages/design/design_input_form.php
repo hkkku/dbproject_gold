@@ -50,8 +50,8 @@
                   <input type="text" placeholder="SerialNo. Here" id="serial" name="design_serial">
                 </p>
                 <p class="client_input">
-                  <label for="client">Client</label>
-                  <input type="text" placeholder="Client Here" id="client" name="design_client">
+                  <label for="tag">tag</label>
+                  <input type="text" placeholder="Tag Here" id="client" name="design_client">
                 </p>
               </div>
               <!-- title/serial/client end -->

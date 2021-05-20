@@ -1,519 +1,141 @@
 /* common admin button style */
-.productAdminBtns {
-  width: 100%;
-  height: auto;
-}
-.productAdminBtns button {
-  border: 1px solid #5446bd;
-  background: #5446bd;
-  color: #fff;
-  padding: 5px 30px;
-  margin-top: 10px;
-}
+.productAdminBtns {width: 100%; height: auto;}
+.productAdminBtns button {border: 1px solid #5446bd; background: #5446bd; color: #fff; padding: 5px 30px; margin-top: 10px;}
 
 /* design page box style */
-.deWeBoxes {
-  width: 100%;
-  height: auto;
-  overflow: hidden;
-}
-.deWeBoxes .deWeBox {
-  width: 25%;
-  height: auto;
-  float: left;
-  padding: 5px;
-}
+.deWeBoxes {width: 100%; height: auto; overflow: hidden;}
+.deWeBoxes .deWeBox {width: 25%; height: auto; float: left;padding: 5px;}
 
-.deWeBoxes .deWeBox > div {
-  width: 100%;
-  height: 100%;
-  border: 1px solid #5446bd;
-  padding: 5px;
-  position: relative;
-}
-.deWeBoxes .deWeBox .boxOverlay {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background: rgba(208, 175, 81, 0.7);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid #fff;
-  opacity: 0;
-  visibility: hidden;
-  transition: all 0.4s;
-}
-.deWeBoxes .boxOverlay i.fa {
-  color: #fff;
-  font-size: 25px;
-  width: 50px;
-  height: 50px;
-  border: 1px solid #fff;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+.deWeBoxes .deWeBox > div {width: 100%; height: 100%; border: 1px solid #5446bd; padding: 5px; position: relative;}
+.deWeBoxes .deWeBox .boxOverlay {position: absolute; width: 100%;height: 100%; top: 0; left: 0; background: rgba(208, 175, 81, 0.7); display: flex; justify-content: center; align-items: center;border: 1px solid #fff; opacity: 0; visibility: hidden;transition: all 0.4s;}
+.deWeBoxes .boxOverlay i.fa {color: #fff; font-size: 25px; width: 50px; height: 50px; border: 1px solid #fff; border-radius: 50%;display: flex; justify-content: center; align-items: center;}
 
-.deWeBox:hover > div .boxOverlay {
-  opacity: 1;
-  visibility: visible;
-}
+.deWeBox:hover > div .boxOverlay {opacity: 1; visibility: visible;}
 
-.deWeBoxes .deWeBox .deWeImg {
-  width: 100%;
-  height: auto;
-  overflow: hidden;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.deWeBoxes .deWeBox .deWeImg img {
-  width: 100%;
-}
+.deWeBoxes .deWeBox .deWeImg {width: 100%; height: auto; overflow: hidden; position: relative; display: flex; align-items: center; justify-content: center;}
+.deWeBoxes .deWeBox .deWeImg img {width: 100%;}
 
-.deWeBoxes .deWeBox .deWeTxt {
-  width: 100%;
-  height: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  flex-direction: column;
-  padding: 15px 0;
-}
-.deWeBoxes .deWeBox .deWeTxt h2 {
-  color: #5446bd;
-  font-weight: 400;
-  margin-bottom: 10px;
-}
-.deWeBoxes .deWeBox .deWeTxt em {
-  font-style: normal;
-  line-height: 1.4;
-  font-weight: 300;
-}
+.deWeBoxes .deWeBox .deWeTxt {width: 100%; height: auto; display: flex; align-items: center; justify-content: center; text-align: center; flex-direction: column; padding: 15px 0;}
+.deWeBoxes .deWeBox .deWeTxt h2 {color: #5446bd; font-weight: 800;margin-bottom: 10px; font-family: 'roboto';}
+.deWeBoxes .deWeBox .deWeTxt em {font-style: normal; line-height: 1.4; font-weight: 300;}
 
 /* buttons style */
-.btns {
-  width: 100%;
-  height: auto;
-  margin: 0;
-  justify-content: center;
-  display: flex;
-  transition: all 0.3s;
-}
-.design .btns a.commonBtn {
-  margin-right: 1px;
-}
+.btns {width: 100%; height: auto; margin: 0; justify-content: center; display: flex; transition: all 0.3s;}
+.design .btns a.commonBtn {margin-right: 1px;}
 
-.design .commonBtn:hover {
-  background: #5446bd;
-  color: #fff;
-}
+.design .commonBtn:hover {background: #5446bd; color: #fff;}
 
 /*-------------------------------------------------------------*/
 /* design detail page style */
 /*-------------------------------------------------------------*/
 
 /* design detail left box style */
-.deWeLeft {
-  width: 60%;
-  height: auto;
-  float: left;
-}
-.deWeDetail .title {
-  float: none;
-  margin-bottom: 50px;
-}
-.deWeDetail .title a {
-  width: 30%;
-}
+.deWeLeft {width: 60%; height: auto; float: left;}
+.deWeDetail .title {float: none; margin-bottom: 50px;}
+.deWeDetail .title a {width: 30%;}
 
-.deWeDetail .title:hover .line {
-  width: 20%;
-}
+.deWeDetail .title:hover .line {width: 20%;}
 
-.detailCon {
-  width: 100%;
-  height: auto;
-  padding-right: 25%;
-}
-.detailCon .detailImg1 {
-  width: 100%;
-  height: auto;
-}
-.detailCon .detailImg1 .imgBox {
-  width: 80%;
-  height: auto;
-  padding: 10px;
-  border: 1px solid #5446bd;
-}
-.detailCon .detailImg1 > .imgBox > img {
-  width: 100%;
-}
+.detailCon {width: 100%; height: auto; padding-right: 25%;}
+.detailCon .detailImg1 {width: 100%; height: auto;}
+.detailCon .detailImg1 .imgBox {width: 80%; height: auto; padding: 10px; border: 1px solid #5446bd;}
+.detailCon .detailImg1 > .imgBox > img {width: 100%;}
 
-.deWeLeft .imgNav {
-  width: 100%;
-  height: auto;
-  padding: 10px 0;
-}
-.deWeLeft .imgNav > a {
-  width: 50px;
-  height: 50px;
-  display: inline-block;
-  overflow: hidden;
-  _padding: 5px;
-  border: 5px solid #fff;
-  _outline: 1px solid #5446bd;
-  position: relative;
-}
-.deWeLeft .imgNav > a > img {
-  height: 100%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.deWeLeft .imgNav a .dotOverlay {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-  background: rgba(208, 175, 81, 0.5);
-}
+.deWeLeft .imgNav {width: 100%; height: auto; padding: 10px 0;}
+.deWeLeft .imgNav > a {width: 50px; height: 50px; display: inline-block; overflow: hidden; border: 5px solid #fff; position: relative;}
+.deWeLeft .imgNav > a > img {height: 100%; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
+.deWeLeft .imgNav a .dotOverlay {position: absolute; left: 0; top: 0; width: 100%; height: 100%; z-index: 1; background: rgba(208, 175, 81, 0.5);}
 
-.deWeLeft .imgNav a.active {
-  outline: 1px solid #5446bd;
-}
-.deWeLeft .imgNav a.active .dotOverlay {
-  display: none;
-}
+.deWeLeft .imgNav a.active {outline: 1px solid #5446bd;}
+.deWeLeft .imgNav a.active .dotOverlay {display: none;}
 
-.detailInfo {
-  width: 100%;
-  height: auto;
-  padding: 5px 0 10px 0;
-  font-size: 12px;
-  font-weight: 600;
-  color: #5446bd;
-}
-.detailDesc p {
-  color: #838383;
-  font-weight: 300;
-  line-height: 1.6;
-}
-.detailDesc a {
-  display: flex;
-  width: 100%;
-  align-items: center;
-  padding: 10px 0;
-  color: #5446bd;
-}
-.detailDesc i.fa {
-  width: 25px;
-  height: 25px;
-  border: 1px solid #5446bd;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #5446bd;
-  color: #fff;
-  margin-right: 10px;
-}
+.detailInfo {width: 100%; height: auto; padding: 5px 0 10px 0; font-size: 12px; font-weight: 600; color: #5446bd;}
+.detailDesc p {color: #838383; font-weight: 300; line-height: 1.6;}
+.detailDesc a {display: flex; width: 100%; align-items: center;padding: 10px 0; color: #5446bd;}
+.detailDesc i.fa {width: 25px; height: 25px; border: 1px solid #5446bd; border-radius: 50%; display: flex; justify-content: center; align-items: center; background: #5446bd; color: #fff;margin-right: 10px;}
 
 /* design & web detail right box style */
-.deWeRight {
-  width: 40%;
-  height: auto;
-  float: right;
-  padding-left: 5%;
-}
-.deWeRight .detailWeb {
-  width: 100%;
-  height: auto;
-  margin-bottom: 20px;
-}
+.deWeRight {width: 40%; height: auto; float: right; padding-left: 5%;}
+.deWeRight .detailWeb {width: 100%; height: auto; margin-bottom: 20px;}
 .deWeRight .webTit,
-.deWeRight .appTit {
-  width: 100%;
-  height: auto;
-  padding: 0 0 10px 0;
-  border-bottom: 1px solid #5446bd;
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-}
+.deWeRight .appTit {width: 100%; height: auto; padding: 0 0 10px 0; border-bottom: 1px solid #5446bd; display: flex; justify-content: space-between; align-items: baseline;}
 .deWeRight .webTit h2,
-.deWeRight .appTit h2 {
-  font-size: 22px;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: -1px;
-}
+.deWeRight .appTit h2 {font-size: 22px; font-weight: 600; text-transform: uppercase; letter-spacing: -1px;}
 .deWeRight .webTit a,
-.deWeRight .appTit a {
-  color: #5446bd;
-}
+.deWeRight .appTit a {color: #5446bd;}
 .deWeRight .webTit a:hover,
-.deWeRight .appTit a:hover {
-  text-decoration: underline;
-}
+.deWeRight .appTit a:hover {text-decoration: underline;}
 
 .deWeRight .detailWeb .webLinks,
-.deWeRight .detailApp .appLinks {
-  width: 100%;
-  height: auto;
-  display: flex;
-  padding: 10px 0;
-  border-bottom: 1px dotted #ddd;
-}
+.deWeRight .detailApp .appLinks {width: 100%; height: auto; display: flex; padding: 10px 0; border-bottom: 1px dotted #ddd;}
 .deWeRight .detailWeb .webLinks .subWebImg,
-.deWeRight .detailApp .appLinks .subAppImg {
-  width: 40%;
-  height: auto;
-  overflow: hidden;
-  _background: url(/gold/img/new-arrival-3.jpg) no-repeat center center;
-  background-size: cover;
-}
+.deWeRight .detailApp .appLinks .subAppImg {width: 40%; height: auto; overflow: hidden; background-size: cover;}
 .deWeRight .detailWeb .webLinks .subWebImg img,
-.deWeRight .detailApp .appLinks .subAppImg img {
-  width: 100%;
-}
+.deWeRight .detailApp .appLinks .subAppImg img {width: 100%;}
 .deWeRight .detailWeb .webLinks .subWebTxt,
-.deWeRight .detailApp .appLinks .subAppTxt {
-  width: 60%;
-  padding-left: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
+.deWeRight .detailApp .appLinks .subAppTxt {width: 60%; padding-left: 10px; display: flex; flex-direction: column; justify-content: center;}
 .deWeRight .detailWeb .webLinks .subWebTxt a,
-.deWeRight .detailApp .appLinks .subAppTxt a {
-  font-weight: 600;
-  font-size: 16px;
-  color: #5446bd;
-}
+.deWeRight .detailApp .appLinks .subAppTxt a {font-weight: 600;font-size: 16px; color: #5446bd;}
 .deWeRight .detailWeb .webLinks .subWebTxt a:hover,
-.deWeRight .detailApp .appLinks .subAppTxt a:hover {
-  text-decoration: underline;
-}
+.deWeRight .detailApp .appLinks .subAppTxt a:hover {text-decoration: underline;}
 .deWeRight .detailWeb .webLinks .subWebTxt em,
-.deWeRight .detailApp .appLinks .subAppTxt em {
-  color: #838383;
-  font-weight: 300;
-  font-style: normal;
-}
+.deWeRight .detailApp .appLinks .subAppTxt em {color: #838383;font-weight: 300; font-style: normal;}
 
 /*-------------------------------------------------------------*/
 /* web page style */
 /*-------------------------------------------------------------*/
 
-.deWeBoxes .webBox {
-  width: 33.33%;
-}
+.deWeBoxes .webBox {width: 33.33%;}
 
-.web .webBoxBtns {
-  width: 100%;
-  height: auto;
-  display: flex;
-  justify-content: space-between;
-  margin-top: 10px;
-}
-.web .webBoxBtns a {
-  display: inline-block;
-  text-align: center;
-  width: 49%;
-  padding: 10px 0;
-  border: 1px solid #5446bd;
-  color: #5446bd;
-  transition: all 0.4s;
-}
+.web .webBoxBtns {width: 100%; height: auto; display: flex;justify-content: space-between; margin-top: 10px;}
+.web .webBoxBtns a {display: inline-block; text-align: center;width: 49%; padding: 10px 0; border: 1px solid #5446bd;color: #5446bd; transition: all 0.4s;}
 .web .webBoxBtns a:nth-child(1),
-.web .webBoxBtns a:hover {
-  background: #5446bd;
-  color: #fff;
-}
+.web .webBoxBtns a:hover {background: #5446bd; color: #fff;}
 
 /*-------------------------------------------------------------*/
 /* web detail page style */
 /*-------------------------------------------------------------*/
 
-.webDetail .webTabBtns button {
-  width: 100px;
-  text-align: center;
-  background: #fff;
-  border: 1px solid #5446bd;
-  padding: 10px 0;
-  color: #5446bd;
-  transition: all 0.3s;
-}
+.webDetail .webTabBtns button {width: 100px; text-align: center;background: #fff; border: 1px solid #5446bd; padding: 10px 0;color: #5446bd; transition: all 0.3s;}
 .webDetail .webTabBtns button:hover,
-.webDetail .webTabBtns button.active {
-  color: #fff;
-  background: #5446bd;
-}
+.webDetail .webTabBtns button.active {color: #fff; background: #5446bd;}
 
 /* pc frame style */
-.webDetail .webBox {
-  width: 100%;
-  height: 450px;
-  margin-top: 20px;
-  position: relative;
-  _display: none;
-}
-.webDetail .webBox .webPcFrame {
-  width: 100%;
-  height: 100%;
-}
-.webDetail .webBox .webPcFrame img {
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-.webDetail .webBox .webPcFrame .webMainImg {
-  width: 100%;
-  height: 75%;
-  position: relative;
-  overflow: hidden;
-}
-.webDetail .webBox .webPcFrame .webMainImg img {
-  width: 92%;
-  left: 50%;
-  transform: translateX(-50%);
-}
+.webDetail .webBox {width: 100%; height: 450px; margin-top: 20px;position: relative;}
+.webDetail .webBox .webPcFrame {width: 100%; height: 100%;}
+.webDetail .webBox .webPcFrame img {width: 100%; position: absolute; top: 0; left: 0;}
+.webDetail .webBox .webPcFrame .webMainImg {width: 100%; height: 75%; position: relative; overflow: hidden;}
+.webDetail .webBox .webPcFrame .webMainImg img {width: 92%;left: 50%; transform: translateX(-50%);}
 
 /* mobile frame style */
-.webDetail .webBox_m {
-  width: 100%;
-  height: 600px;
-  margin-top: 20px;
-  position: relative;
-}
-.webDetail .webBox_m .webMobileFrame {
-  width: 98%;
-  height: 100%;
-}
-.webDetail .webBox_m .webMobileFrame img {
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-.webDetail .webBox_m .webMobileFrame .webMainImg_m {
-  width: 43%;
-  height: 100%;
-  position: relative;
-  overflow: hidden;
-  margin: auto;
-  top: 10px;
-}
-.webDetail .webBox_m .webMobileFrame .webMainImg_m img {
-  top: 0;
-  left: 0;
-}
+.webDetail .webBox_m {width: 100%; height: 600px; margin-top: 20px; position: relative;}
+.webDetail .webBox_m .webMobileFrame {width: 98%; height: 100%;}
+.webDetail .webBox_m .webMobileFrame img {width: 100%; position: absolute; top: 0; left: 0;}
+.webDetail .webBox_m .webMobileFrame .webMainImg_m {width: 43%; height: 100%; position: relative; overflow: hidden; margin: auto;top: 10px;}
+.webDetail .webBox_m .webMobileFrame .webMainImg_m img {top: 0;left: 0;}
 
 /*-------------------------------------------------------------*/
 /* app page style */
 /*-------------------------------------------------------------*/
 .appBoxes .appBox,
-.appBoxes .appBox-sizer {
-  width: 25%;
-}
-.appBoxes .appBox {
-  padding: 5px;
-}
-.appBoxes .appBox > div {
-  padding: 5px;
-  border: 1px solid #5446bd;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-}
-.appBoxes .appBox > div h2 {
-  color: #5446bd;
-  font-weight: 600;
-  padding: 5px 0;
-}
-.appBoxes .appBox > div a {
-  width: 100%;
-  text-align: center;
-  padding: 10px 0;
-  border: 1px solid #5446bd;
-  color: #fff;
-  background: #5446bd;
-  transition: all 0.3s;
-}
-.appBoxes .appBox img {
-  width: 100%;
-}
+.appBoxes .appBox-sizer {width: 25%;}
+.appBoxes .appBox {padding: 5px;}
+.appBoxes .appBox > div {padding: 5px; border: 1px solid #5446bd;display: flex; flex-direction: column; text-align: center;}
+.appBoxes .appBox > div h2 {color: #5446bd; font-weight: 600;padding: 5px 0;}
+.appBoxes .appBox > div a {width: 100%; text-align: center; padding: 10px 0; border: 1px solid #5446bd; color: #fff;background: #5446bd; transition: all 0.3s;}
+.appBoxes .appBox img {width: 100%;}
 
 /*-------------------------------------------------------------*/
 /* app detail page style */
 /*-------------------------------------------------------------*/
-.appFrameBox {
-  width: 50%;
-  position: relative;
-  margin: 0 auto 25px;
-}
-.appFrameBox img {
-  width: 95%;
-  margin: auto;
-}
-.appFrameBox > span {
-  position: absolute;
-  display: block;
-}
-.appFrameBox > span.frameTop {
-  width: 100%;
-  height: 30px;
-  top: 0;
-  left: 0;
-  background: url(/gold/img/frame_top.png) no-repeat top center;
-  background-size: cover;
-}
-.appFrameBox > span.frameLeft {
-  width: 20px;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background: url(/gold/img/frame_right.png) no-repeat left center;
-  background-size: cover;
-}
-.appFrameBox > span.frameRight {
-  width: 20px;
-  height: 100%;
-  top: 0;
-  right: 0;
-  background: url(/gold/img/frame_left.png) no-repeat right center;
-  background-size: cover;
-}
-.appFrameBox > span.frameBottom {
-  width: 100%;
-  height: 30px;
-  bottom: 0;
-  right: 0;
-  background: url(/gold/img/frame_bottom.png) no-repeat bottom center;
-  background-size: cover;
-}
+.appFrameBox {width: 50%; position: relative; margin: 0 auto 25px;}
+.appFrameBox img {width: 95%; margin: auto;}
+.appFrameBox > span {position: absolute; display: block;}
+.appFrameBox > span.frameTop {width: 100%; height: 30px; top: 0;left: 0; background: url(/gold/img/frame_top.png) no-repeat top center; background-size: cover;}
+.appFrameBox > span.frameLeft {width: 20px; height: 100%; top: 0;left: 0; background: url(/gold/img/frame_right.png) no-repeat left center; background-size: cover;}
+.appFrameBox > span.frameRight {width: 20px; height: 100%; top: 0;right: 0; background: url(/gold/img/frame_left.png) no-repeat right center; background-size: cover;}
+.appFrameBox > span.frameBottom {width: 100%; height: 30px;bottom: 0; right: 0; background: url(/gold/img/frame_bottom.png) no-repeat bottom center; background-size: cover;}
 
-.storeBtns {
-  width: 100%;
-  height: auto;
-  text-align: center;
-  margin-bottom: 25px;
-}
-.storeBtns a {
-  width: 30%;
-  display: inline-block;
-}
-.storeBtns a img {
-  width: 100%;
-}
+.storeBtns {width: 100%; height: auto; text-align: center; margin-bottom: 25px;}
+.storeBtns a {width: 30%; display: inline-block;}
+.storeBtns a img {width: 100%;}

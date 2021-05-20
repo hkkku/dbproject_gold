@@ -25,7 +25,7 @@
       <section class="contents design hasTitle">
         <div class="center">
           <div class="title">
-            <h2>DESIGN COLLECTION</h2>
+            <h2>PLANTIVE COLLECTION</h2>
             <div class="linkBox">
               <span class="line"></span>
               <a href="#">view more details</a>
