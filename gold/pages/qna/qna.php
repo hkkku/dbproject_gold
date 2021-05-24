@@ -26,7 +26,7 @@
       <section class="contents qna hasTitle">
         <div class="center">
           <div class="title">
-            <h2>Your Inquiry</h2>
+            <h2>Q&A</h2>
             <div class="linkBox">
               <span class="line"></span>
               <a href="#">view more details</a>

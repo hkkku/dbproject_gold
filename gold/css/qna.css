@@ -2,14 +2,14 @@
 /* qna table style */
 /*-------------------------------------------------------------*/
 .qnaBoxes .qnaTable{width: 80%; height: auto; margin: auto;}
-.qnaBoxes .qnaTable li.qnaTitle{width: 100%; height: auto; background: #5446bd;}
+.qnaBoxes .qnaTable li.qnaTitle{width: 100%; height: auto; background: #2e803d;}
 .qnaBoxes .qnaTable li span{text-align: center; font-family: 'Noto Sans KR'; font-weight: 300; font-size: 16px; color: #fff; display: block; float: left; padding: 10px 0;} 
 
 .qnaBoxes .qnaTable .qnaCon span,
 .qnaBoxes .qnaTable .qnaCon span a{color: #848484;}
 
 .qnaBoxes .qnaTable li.qnaCon:nth-child(odd){background: #f0f0f0;}
-.qnaBoxes .qnaTable li.qnaCon:last-child{border-bottom: 1px solid #5446bd;}
+.qnaBoxes .qnaTable li.qnaCon:last-child{border-bottom: 1px solid #2e803d;}
 
 .qnaBoxes .qnaTable li span.qnaNum{width: 10%;}
 .qnaBoxes .qnaTable li span.qnaId{width: 15%;}
@@ -26,52 +26,52 @@
 .searchPaging>div{width: 50%; height: auto;  float: left; margin-top: 10px;}
 .searchPaging>div.paging{display: flex; justify-content: flex-end;}
 
-.searchSelect{width: 20%; height: 30px; border-radius: 0; outline: 0; padding: 5px; border: 1px solid #5446bd;color: #5446bd; float: left; display: block;}
+.searchSelect{width: 20%; height: 30px; border-radius: 0; outline: 0; padding: 5px; border: 1px solid #2e803d;color: #2e803d; float: left; display: block;}
 .qnaBoxes .qnaSearchInput,
-.admin .adminSearchInput{width: 50%; height: 30px; padding: 5px; border: 1px solid #5446bd; float: left; display: block; margin: 0 5px;}
+.admin .adminSearchInput{width: 50%; height: 30px; padding: 5px; border: 1px solid #2e803d; float: left; display: block; margin: 0 5px;}
 .qnaBoxes .qnaSearchBtn,
-.admin .adminSearchBtn{width: 10%; height: 30px; background: #5446bd; color: #fff; font-size: 14px; border: 1px solid #5446bd; outline: 0; display: flex; justify-content: center; align-items: center;}
+.admin .adminSearchBtn{width: 10%; height: 30px; background: #2e803d; color: #fff; font-size: 14px; border: 1px solid #2e803d; outline: 0; display: flex; justify-content: center; align-items: center;}
 
-.qnaBoxes .paging span{display: flex; width: 30px; height: 30px; border: 1px solid #5446bd; color: #5446bd; justify-content: center; align-items: center; margin-left: 5px; transition: all 0.3s;}
+.qnaBoxes .paging span{display: flex; width: 30px; height: 30px; border: 1px solid #2e803d; color: #2e803d; justify-content: center; align-items: center; margin-left: 5px; transition: all 0.3s;}
 .qnaBoxes .paging span:hover,
-.qnaBoxes .paging span.active{background: #5446bd; color: #fff;}
+.qnaBoxes .paging span.active{background: #2e803d; color: #fff;}
 
 /* writebox style */
 .qnaBoxes .writeBox{width: 80%; margin: 50px auto 0;}
 .qnaBoxes .writeBox .qnaGuide{width: 100%; height: auto; margin-bottom: 5px; }
-.qnaBoxes .writeBox .qnaGuide span{padding-right: 10px; border-right: 1px solid #5446bd; color: #5446bd; font-weight: 600;}
-.qnaBoxes .writeBox .qnaGuide span a{color: #5446bd; background: #fff; border: none; float: none; padding: 0; font-size: 14px; margin: 0; font-weight: 600;}
+.qnaBoxes .writeBox .qnaGuide span{padding-right: 10px; border-right: 1px solid #2e803d; color: #2e803d; font-weight: 600;}
+.qnaBoxes .writeBox .qnaGuide span a{color: #2e803d; background: #fff; border: none; float: none; padding: 0; font-size: 14px; margin: 0; font-weight: 600;}
 .qnaBoxes .writeBox .qnaGuide span:last-child{border-right: 0; padding-left: 5px;}
 
 /* qna input box style */
-.qnaBoxes .writeBox .writeForm{border: 1px solid #5446bd; padding: 5px;}
+.qnaBoxes .writeBox .writeForm{border: 1px solid #2e803d; padding: 5px;}
 .qnaBoxes .writeBox p{width: 100%; height: auto; margin-bottom: 5px; display: flex;}
 .qnaBoxes .writeBox p:last-child{margin-bottom: 0;}
-.qnaBoxes .writeBox p label{width: calc(20% - 5px); height: 30px; background: #5446bd; color: #fff; text-align: center; display: flex; justify-content: center; align-items: center;}
-.qnaBoxes .writeBox p input{display: flex; width: 80%; border: 1px solid #5446bd; outline: 0; padding: 0 5px; margin-left: 5px;}
-.qnaBoxes .writeBox p textarea{width: 100%; height: 150px; padding: 5px; border: 1px solid #5446bd; resize: none;}
+.qnaBoxes .writeBox p label{width: calc(20% - 5px); height: 30px; background: #2e803d; color: #fff; text-align: center; display: flex; justify-content: center; align-items: center;}
+.qnaBoxes .writeBox p input{display: flex; width: 80%; border: 1px solid #2e803d; outline: 0; padding: 0 5px; margin-left: 5px;}
+.qnaBoxes .writeBox p textarea{width: 100%; height: 150px; padding: 5px; border: 1px solid #2e803d; resize: none;}
 .qnaBoxes .writeBox button,
-.qnaBoxes .writeBox a{border: 1px solid #5446bd; background: #5446bd; color: #fff; text-align: center; padding: 5px 30px; margin-top: 5px; float: right;}
+.qnaBoxes .writeBox a{border: 1px solid #2e803d; background: #2e803d; color: #fff; text-align: center; padding: 5px 30px; margin-top: 5px; float: right;}
 
 /*-------------------------------------------------------------*/
 /* qna view page style */
 /*-------------------------------------------------------------*/
 .qnaView .writerInfo{width: 80%; margin: auto;}
-.qnaView .writerInfo p{color: #5446bd; font-weight: 300; padding: 5px;}
+.qnaView .writerInfo p{color: #2e803d; font-weight: 300; padding: 5px;}
 .qnaView .writeBox{margin: 5px auto 30px;}
 .qnaView button{margin-left: 5px;}
 
 /* qna answer box style */
-.qnaView .answerBox{width: 80%; height: auto; margin: auto; padding: 5px; border: 1px solid #5446bd; margin-top: 30px;} 
+.qnaView .answerBox{width: 80%; height: auto; margin: auto; padding: 5px; border: 1px solid #2e803d; margin-top: 30px;} 
 .qnaView .answerBox .ansInputForm{width: 100%; height: 100%; display: flex;}
-.qnaView .answerBox .ansInputForm textarea{width: 80%; height: 80px; resize: none; border: 1px solid #5446bd; outline: none; padding: 5px;}
+.qnaView .answerBox .ansInputForm textarea{width: 80%; height: 80px; resize: none; border: 1px solid #2e803d; outline: none; padding: 5px;}
 .qnaView .answerBox .ansInputForm .ansBtnBox{width: 20%; padding: 10px;}
-.qnaView .answerBox .ansInputForm button{width: 100%; height: 100%; border: 1px solid #5446bd; background: #5446bd; color: #fff; text-align: center;}
+.qnaView .answerBox .ansInputForm button{width: 100%; height: 100%; border: 1px solid #2e803d; background: #2e803d; color: #fff; text-align: center;}
 
 /* qna answer result box style */
-.qnaView .ansResult{width: 80%; height: auto; margin: 10px auto 0; border: 1px solid #5446bd; padding: 5px; display: flex;}
+.qnaView .ansResult{width: 80%; height: auto; margin: 10px auto 0; border: 1px solid #2e803d; padding: 5px; display: flex;}
 .qnaView .ansResult p{height: 80px;}
-.qnaView .ansResult p.adminId{width: 20%; display: flex; align-items: center; justify-content: center; color: #5446bd; font-weight: 600; flex-direction: column;}
-.qnaView .ansResult p.adminId a{font-weight: 400; color: #5446bd; text-align: center; justify-content: center; flex-direction: column; font-size: 20px;}
-.qnaView .ansResult p.ansResultTxt{width: 80%; border: 1px solid #5446bd; padding: 5px; color: #848484;}
+.qnaView .ansResult p.adminId{width: 20%; display: flex; align-items: center; justify-content: center; color: #2e803d; font-weight: 600; flex-direction: column;}
+.qnaView .ansResult p.adminId a{font-weight: 400; color: #2e803d; text-align: center; justify-content: center; flex-direction: column; font-size: 20px;}
+.qnaView .ansResult p.ansResultTxt{width: 80%; border: 1px solid #2e803d; padding: 5px; color: #848484;}
 /* .qnaView .ansResult .ansDeleteBtn{width: 20%;} */

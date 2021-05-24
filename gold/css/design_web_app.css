@@ -1,12 +1,12 @@
 /* common admin button style */
 .productAdminBtns {width: 100%; height: auto;}
-.productAdminBtns button {border: 1px solid #5446bd; background: #5446bd; color: #fff; padding: 5px 30px; margin-top: 10px;}
+.productAdminBtns button {border: 1px solid #2e803d; background: #2e803d; color: #fff; padding: 5px 30px; margin-top: 10px;}
 
 /* design page box style */
 .deWeBoxes {width: 100%; height: auto; overflow: hidden;}
 .deWeBoxes .deWeBox {width: 25%; height: auto; float: left;padding: 5px;}
 
-.deWeBoxes .deWeBox > div {width: 100%; height: 100%; border: 1px solid #5446bd; padding: 5px; position: relative;}
+.deWeBoxes .deWeBox > div {width: 100%; height: 100%; border: 1px solid #2e803d; padding: 5px; position: relative;}
 .deWeBoxes .deWeBox .boxOverlay {position: absolute; width: 100%;height: 100%; top: 0; left: 0; background: rgba(208, 175, 81, 0.7); display: flex; justify-content: center; align-items: center;border: 1px solid #fff; opacity: 0; visibility: hidden;transition: all 0.4s;}
 .deWeBoxes .boxOverlay i.fa {color: #fff; font-size: 25px; width: 50px; height: 50px; border: 1px solid #fff; border-radius: 50%;display: flex; justify-content: center; align-items: center;}
 
@@ -16,14 +16,14 @@
 .deWeBoxes .deWeBox .deWeImg img {width: 100%;}
 
 .deWeBoxes .deWeBox .deWeTxt {width: 100%; height: auto; display: flex; align-items: center; justify-content: center; text-align: center; flex-direction: column; padding: 15px 0;}
-.deWeBoxes .deWeBox .deWeTxt h2 {color: #5446bd; font-weight: 800;margin-bottom: 10px; font-family: 'roboto';}
+.deWeBoxes .deWeBox .deWeTxt h2 {color: #2e803d; font-weight: 800;margin-bottom: 10px; font-family: 'roboto';}
 .deWeBoxes .deWeBox .deWeTxt em {font-style: normal; line-height: 1.4; font-weight: 300;}
 
 /* buttons style */
 .btns {width: 100%; height: auto; margin: 0; justify-content: center; display: flex; transition: all 0.3s;}
 .design .btns a.commonBtn {margin-right: 1px;}
 
-.design .commonBtn:hover {background: #5446bd; color: #fff;}
+.design .commonBtn:hover {background: #2e803d; color: #fff;}
 
 /*-------------------------------------------------------------*/
 /* design detail page style */
@@ -38,7 +38,7 @@
 
 .detailCon {width: 100%; height: auto; padding-right: 25%;}
 .detailCon .detailImg1 {width: 100%; height: auto;}
-.detailCon .detailImg1 .imgBox {width: 80%; height: auto; padding: 10px; border: 1px solid #5446bd;}
+.detailCon .detailImg1 .imgBox {width: 80%; height: auto; padding: 10px; border: 1px solid #2e803d;}
 .detailCon .detailImg1 > .imgBox > img {width: 100%;}
 
 .deWeLeft .imgNav {width: 100%; height: auto; padding: 10px 0;}
@@ -46,23 +46,23 @@
 .deWeLeft .imgNav > a > img {height: 100%; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
 .deWeLeft .imgNav a .dotOverlay {position: absolute; left: 0; top: 0; width: 100%; height: 100%; z-index: 1; background: rgba(208, 175, 81, 0.5);}
 
-.deWeLeft .imgNav a.active {outline: 1px solid #5446bd;}
+.deWeLeft .imgNav a.active {outline: 1px solid #2e803d;}
 .deWeLeft .imgNav a.active .dotOverlay {display: none;}
 
-.detailInfo {width: 100%; height: auto; padding: 5px 0 10px 0; font-size: 12px; font-weight: 600; color: #5446bd;}
+.detailInfo {width: 100%; height: auto; padding: 5px 0 10px 0; font-size: 12px; font-weight: 600; color: #2e803d;}
 .detailDesc p {color: #838383; font-weight: 300; line-height: 1.6;}
-.detailDesc a {display: flex; width: 100%; align-items: center;padding: 10px 0; color: #5446bd;}
-.detailDesc i.fa {width: 25px; height: 25px; border: 1px solid #5446bd; border-radius: 50%; display: flex; justify-content: center; align-items: center; background: #5446bd; color: #fff;margin-right: 10px;}
+.detailDesc a {display: flex; width: 100%; align-items: center;padding: 10px 0; color: #2e803d;}
+.detailDesc i.fa {width: 25px; height: 25px; border: 1px solid #2e803d; border-radius: 50%; display: flex; justify-content: center; align-items: center; background: #2e803d; color: #fff;margin-right: 10px;}
 
 /* design & web detail right box style */
 .deWeRight {width: 40%; height: auto; float: right; padding-left: 5%;}
 .deWeRight .detailWeb {width: 100%; height: auto; margin-bottom: 20px;}
 .deWeRight .webTit,
-.deWeRight .appTit {width: 100%; height: auto; padding: 0 0 10px 0; border-bottom: 1px solid #5446bd; display: flex; justify-content: space-between; align-items: baseline;}
+.deWeRight .appTit {width: 100%; height: auto; padding: 0 0 10px 0; border-bottom: 1px solid #2e803d; display: flex; justify-content: space-between; align-items: baseline;}
 .deWeRight .webTit h2,
 .deWeRight .appTit h2 {font-size: 22px; font-weight: 600; text-transform: uppercase; letter-spacing: -1px;}
 .deWeRight .webTit a,
-.deWeRight .appTit a {color: #5446bd;}
+.deWeRight .appTit a {color: #2e803d;}
 .deWeRight .webTit a:hover,
 .deWeRight .appTit a:hover {text-decoration: underline;}
 
@@ -75,7 +75,7 @@
 .deWeRight .detailWeb .webLinks .subWebTxt,
 .deWeRight .detailApp .appLinks .subAppTxt {width: 60%; padding-left: 10px; display: flex; flex-direction: column; justify-content: center;}
 .deWeRight .detailWeb .webLinks .subWebTxt a,
-.deWeRight .detailApp .appLinks .subAppTxt a {font-weight: 600;font-size: 16px; color: #5446bd;}
+.deWeRight .detailApp .appLinks .subAppTxt a {font-weight: 600;font-size: 16px; color: #2e803d;}
 .deWeRight .detailWeb .webLinks .subWebTxt a:hover,
 .deWeRight .detailApp .appLinks .subAppTxt a:hover {text-decoration: underline;}
 .deWeRight .detailWeb .webLinks .subWebTxt em,
@@ -88,17 +88,17 @@
 .deWeBoxes .webBox {width: 33.33%;}
 
 .web .webBoxBtns {width: 100%; height: auto; display: flex;justify-content: space-between; margin-top: 10px;}
-.web .webBoxBtns a {display: inline-block; text-align: center;width: 49%; padding: 10px 0; border: 1px solid #5446bd;color: #5446bd; transition: all 0.4s;}
+.web .webBoxBtns a {display: inline-block; text-align: center;width: 49%; padding: 10px 0; border: 1px solid #2e803d;color: #2e803d; transition: all 0.4s;}
 .web .webBoxBtns a:nth-child(1),
-.web .webBoxBtns a:hover {background: #5446bd; color: #fff;}
+.web .webBoxBtns a:hover {background: #2e803d; color: #fff;}
 
 /*-------------------------------------------------------------*/
 /* web detail page style */
 /*-------------------------------------------------------------*/
 
-.webDetail .webTabBtns button {width: 100px; text-align: center;background: #fff; border: 1px solid #5446bd; padding: 10px 0;color: #5446bd; transition: all 0.3s;}
+.webDetail .webTabBtns button {width: 100px; text-align: center;background: #fff; border: 1px solid #2e803d; padding: 10px 0;color: #2e803d; transition: all 0.3s;}
 .webDetail .webTabBtns button:hover,
-.webDetail .webTabBtns button.active {color: #fff; background: #5446bd;}
+.webDetail .webTabBtns button.active {color: #fff; background: #2e803d;}
 
 /* pc frame style */
 .webDetail .webBox {width: 100%; height: 450px; margin-top: 20px;position: relative;}
@@ -120,9 +120,9 @@
 .appBoxes .appBox,
 .appBoxes .appBox-sizer {width: 25%;}
 .appBoxes .appBox {padding: 5px;}
-.appBoxes .appBox > div {padding: 5px; border: 1px solid #5446bd;display: flex; flex-direction: column; text-align: center;}
-.appBoxes .appBox > div h2 {color: #5446bd; font-weight: 600;padding: 5px 0;}
-.appBoxes .appBox > div a {width: 100%; text-align: center; padding: 10px 0; border: 1px solid #5446bd; color: #fff;background: #5446bd; transition: all 0.3s;}
+.appBoxes .appBox > div {padding: 5px; border: 1px solid #2e803d;display: flex; flex-direction: column; text-align: center;}
+.appBoxes .appBox > div h2 {color: #2e803d; font-weight: 600;padding: 5px 0;}
+.appBoxes .appBox > div a {width: 100%; text-align: center; padding: 10px 0; border: 1px solid #2e803d; color: #fff;background: #2e803d; transition: all 0.3s;}
 .appBoxes .appBox img {width: 100%;}
 
 /*-------------------------------------------------------------*/

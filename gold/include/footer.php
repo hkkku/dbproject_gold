@@ -1,7 +1,7 @@
 <!-- footer -->
 <footer>
   <p>
-    copyright &copy; project mong all right reserved. | Design :
-    <span>Gold-Design</span>
+    copyright &copy; hkkku  all right reserved. | Design :
+    <span>hkkku-Design</span>
  </p>
 </footer>

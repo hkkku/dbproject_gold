@@ -1,22 +1,22 @@
 .admin .adminTabs {width: 80%; height: auto; text-align: center; margin: 0 auto 30px;}
-.admin .adminTabs button {border: 1px solid #5446bd; font-weight: 600; background: #fff; padding: 10px 40px; transition: all 0.4s; color: #5446bd;}
+.admin .adminTabs button {border: 1px solid #2e803d; font-weight: 600; background: #fff; padding: 10px 40px; transition: all 0.4s; color: #2e803d;}
 .admin .adminTabs button i {font-style: normal; display: none;}
 .admin .adminTabs button:hover,
-.admin .adminTabs button.active {background: #5446bd; color: #fff;}
+.admin .adminTabs button.active {background: #2e803d; color: #fff;}
 
 .admin .adminTable {width: 80%; height: auto; margin: 0 auto 10px;}
 .admin .adminTable li {width: 100%; height: auto;}
 
 .admin .adminTable li:nth-child(odd) {background: #f0f0f0;}
-.admin .adminTable li.adminTitle {background: #5446bd;}
+.admin .adminTable li.adminTitle {background: #2e803d;}
 
 .admin .adminTable span {text-align: center; display: block; float: left; padding: 10px 0; font-family: "Noto Sans KR"; font-weight: 300;}
 .admin .adminTable .adminTitle span {color: #fff;}
 .admin .adminTable .adminContents span,
 .admin .adminTable .adminContents span a {color: #848484;}
-.admin .adminTable li.adminContents:last-child {border-bottom: 1px solid #5446bd;}
+.admin .adminTable li.adminContents:last-child {border-bottom: 1px solid #2e803d;}
 
-.admin .adminTable li.adminContents span i {color: #5446bd; font-size: 18px; line-height: 1.6;}
+.admin .adminTable li.adminContents span i {color: #2e803d; font-size: 18px; line-height: 1.6;}
 .admin .adminTable li.adminContents span button {background: 0; outline: 0; border: 0;}
 
 /* admin message tab style */
@@ -33,8 +33,8 @@
 
 /* admin view page style */
 .adminViewBtns {width: 80%; height: auto; margin: auto; text-align: right;}
-.adminViewBtns a {padding: 5px 15px; border: 1px solid #5446bd; display: inline-block; background: #5446bd; transition: all 0.4s; color: #fff; font-weight: 600; margin-left: 0;}
-.adminViewBtns a:hover {color: #5446bd; background: #fff;}
+.adminViewBtns a {padding: 5px 15px; border: 1px solid #2e803d; display: inline-block; background: #2e803d; transition: all 0.4s; color: #fff; font-weight: 600; margin-left: 0;}
+.adminViewBtns a:hover {color: #2e803d; background: #fff;}
 .adminView div.writeBox {margin-bottom: 10px;}
 
 /* admin member tab style */
@@ -48,7 +48,7 @@
 .memberTab span.memDelete {width: 10%;}
 
 .memberTab span.memLv input,
-.memberTab span.memPt input {width: 80%; border: 1px solid #5446bd; border-radius: 0; outline: 0; color: #848484; text-align: center; padding: 3px 0;}
+.memberTab span.memPt input {width: 80%; border: 1px solid #2e803d; border-radius: 0; outline: 0; color: #848484; text-align: center; padding: 3px 0;}
 
 /* admin qna tab style */
 .qnaTab span.qnaCheck {width: 5%;}
@@ -59,6 +59,6 @@
 .qnaTab span.qnaHit {width: 10%;}
 
 .qnaTab .checkDeleteBtn,
-.qnaResultBtns button {border: 0; outline: 0; background: #5446bd; color: #fff; padding: 5px 15px; height: 30px; margin-top: 10px;}
+.qnaResultBtns button {border: 0; outline: 0; background: #2e803d; color: #fff; padding: 5px 15px; height: 30px; margin-top: 10px;}
 
 .qnaResultBtns {text-align: right;}

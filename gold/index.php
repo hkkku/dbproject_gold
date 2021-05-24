@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Study List</title>
+    <title>Plantive</title>
     <!-- font awesome link -->
     <link
       rel="stylesheet"
@@ -30,7 +30,7 @@
         <div class="center clear">
           <!-- title width common style -->
           <div class="title">
-            <h2>About Plantive</h2>
+            <h2>The Plantive</h2>
           </div>
           <!-- title width common style end -->
 
@@ -40,27 +40,27 @@
           <!-- db connect -->
           <div class="arrivalBox">
             <div class="arrivalCon">
-              <img src="img/new-arrival-1.jpg" alt="" />
-              <span class="overlay"></span>
+              <img src="img/icon_01.png" alt="plantive identity image" />
+              <!-- <span class="overlay"></span> -->
               <div class="arrivalTxt">
-                <h2>SUMMER</h2>
-                <em>COLLECTION</em>
+                <h2>ECO</h2>
+                <em>Friendly</em>
               </div>
             </div>
             <div class="arrivalCon">
-              <img src="img/new-arrival-2.jpg" alt="" />
-              <span class="overlay"></span>
+              <img src="img/icon_02.png" alt="plantive identity image" />
+              <!-- <span class="overlay"></span> -->
               <div class="best">
-                <a href="#">BEST</a>
-                <p>QUALITY</p>
+                <p>Air</p>
+                <p>purification</p>
               </div>
             </div>
             <div class="arrivalCon">
-              <img src="img/new-arrival-3.jpg" alt="" />
-              <span class="overlay"></span>
+              <img src="img/icon_03.png" alt="plantive identity image" />
+              <!-- <span class="overlay"></span> -->
               <div class="arrivalTxt">
-                <h2>AUTUMN</h2>
-                <em>COLLECTION</em>
+                <h2>Direct</h2>
+                <em>delivery</em>
               </div>
             </div>
           </div>
@@ -71,7 +71,7 @@
       <section class="contents product">
         <div class="center clear">
           <div class="title">
-            <h2>DESIGN PROJECTS</h2>
+            <h2>ABOUT PLANTIVE</h2>
           </div>
           <!-- end of commontitle -->
           <div class="productBox clear">
