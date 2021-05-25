@@ -7,7 +7,7 @@
 *{margin: 0; padding: 0; box-sizing:border-box;}
 ol , ul{list-style: none;}
 a{text-decoration: none; color: #444;}
-body{font-size: 14px; font-family: "Open Sans", sans-serif;}
+body{font-size: 14px; font-family: "Roboto", sans-serif;}
 input[type="checkbox"]{-webkit-appearance: auto; border-radius: 0; border: 1px solid #2e803d;}
 img{display: block;}
 button, input, textarea{outline: 0; font-family: 'Open Sans';}
@@ -23,7 +23,7 @@ a.commonBtn , button.commonBtn {width: 30%; display: inline-block; padding: 10px
 
 /* common title style */
 .title{width: auto; height: auto;}
-.title h2{font-size: 50px; font-weight: 300; text-transform: uppercase; text-align: center;}
+.title h2{font-size: 50px; font-weight: 200; text-transform: uppercase; text-align: center;}
 .title .linkBox{width: 100%; display: flex; align-items: center;}
 .title .line{width: 10%; display: block; height: 1px; background: #2e803d; float: left; transition: all 0.4s;}
 .title a{display: block; width: 40%; float: left; text-align: right; text-transform: uppercase; font-size: 12px; font-weight: 400; color:  #2e803d; transition: all 0.3s;}
@@ -85,16 +85,17 @@ a.commonBtn , button.commonBtn {width: 30%; display: inline-block; padding: 10px
 .cateList .arrivalBox .arrivalCon .overlay{background: rgba(208, 175, 81, 0.4);}
 
 .cateList .arrivalCon .best ,
-.cateList .arrivalCon .arrivalTxt{position: absolute; width: 100%; top: 50%; transform: translateY(-50%); left: 0; text-align: center; z-index: 5; color: #fff; background: #2e803d; border-radius: 50px;}
-.cateList .arrivalCon .arrivalTxt h2{font-family: 'Dancing Script'; font-size: 30px;}
-.cateList .arrivalCon .arrivalTxt em{font-style: normal; font-weight: 400; font-size: 16px; letter-spacing: 2px;}
+.cateList .arrivalCon .arrivalTxt{position: absolute; width: 50%; top: 50%; left: 25%; transform: translateX(50%) translateY(-50%) rotateY(90deg); text-align: center; z-index: 5; color: #fff; background: #2e803d; border-radius: 50px; transition: all 0.4s ease; padding: 5px 0;}
+.cateList .arrivalCon:hover>.arrivalTxt{transform: translateY(-50%) rotateY(0deg);}
+.cateList .arrivalCon .arrivalTxt h2{font-size: 17px;}
+.cateList .arrivalCon .arrivalTxt em{font-style: normal; font-weight: 400; font-size: 16px; letter-spacing: -0.5px;}
 
 .cateList .arrivalCon .best a{display: inline-block; color: #fff; font-size: 16px; padding: 5px 50px; border: 1px solid #fff; transition: all 0.4s;}
 .cateList .arrivalCon .best a:hover{background: #2e803d; border: 1px solid #2e803d;}
 .cateList .arrivalCon .best p{font-size: 25px; font-weight: 700; letter-spacing: 2px;}
 
 /* product type section style */
-.product{background: #ddd;}
+.product{background: #c8e3cd;}
 
 .product .productBox{width: 100%; height: auto; float: left; margin: 50px 0 0; display: flex;}
 .product .productBox>div{width: 50%; height: auto; float: left;}

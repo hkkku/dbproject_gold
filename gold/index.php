@@ -50,9 +50,9 @@
             <div class="arrivalCon">
               <img src="img/icon_02.png" alt="plantive identity image" />
               <!-- <span class="overlay"></span> -->
-              <div class="best">
-                <p>Air</p>
-                <p>purification</p>
+              <div class="arrivalTxt">
+                <h2>Air</h2>
+                <em>purification</em>
               </div>
             </div>
             <div class="arrivalCon">
