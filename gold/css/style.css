@@ -33,12 +33,12 @@ a.commonBtn , button.commonBtn {width: 30%; display: inline-block; padding: 10px
 
 
 .hasTitle .title{width: auto; height: auto; float: none; position: relative; left: 50%; transform: translateX(-50%);}
-.hasTitle .title h2{font-size: 50px; font-weight: 300; text-align: center; color: #333;}
+.hasTitle .title h2{font-size: 50px; font-weight: 200; text-align: center; color: #333;}
 .hasTitle .title .linkBox{width: 100%; display: flex; align-items: center; justify-content: center; padding: 30px 0;}
 .hasTitle .title .line{width: 37%; display: block; height: 1px; background: #2e803d; float: none; transition: all 0.4s;}
 .hasTitle .title a{display: block; width: 15%; float: none; text-align: center; color: #2e803d; transition: all 0.3s;}
 
-.hasTitle .title:hover a{text-decoration: none; color: #ccc;}
+.hasTitle .title:hover a{text-decoration: none; font-weight: 500;}
 .hasTitle .title:hover .line{width: 15%;}
 
 
@@ -139,15 +139,16 @@ a.commonBtn , button.commonBtn {width: 30%; display: inline-block; padding: 10px
 .fashionBox>div>div>a:hover{color: #fff; background: #2e803d;}
 
 /* about section style */
-.about{background: #181818; border-bottom: 1px solid #333;}
+.about{background: #c8e3cd;}
+.hasTitle.about .title{padding-bottom: 0;}
 .hasTitle.about .title h2{color: #2e803d;} 
-.about .aboutTxt{width: 100%; height: auto; text-align: center; color: #bbb; padding-top: 30px;}
+.about .aboutTxt{width: 100%; height: auto; text-align: center; color: #444; padding-top: 15px;}
 .about .aboutTxt p{font-weight: 300;}
-.about .aboutTxt p.address{margin-top: 15px; color: #ddd;}
+.about .aboutTxt p.address{margin-top: 15px; color: #2e803d;}
 .about .aboutTxt p.address a{color: #2e803d; font-weight: 400;}
 
 .about .sns{width: 100%; height: auto; margin: 20px 0; display: flex; align-items: center; justify-content: center;}
-.about .sns i.fa{width: 30px; height: 30px; color: #ddd; margin: 5px; border: 1px solid #ddd; border-radius: 50%; display: flex; align-items: center; justify-content: center;}
+.about .sns i.fa{width: 30px; height: 30px; color: #2e803d; margin: 5px; border: 1px solid #2e803d; border-radius: 50%; display: flex; align-items: center; justify-content: center;}
 
 .about .sns i.fa:hover{background: #2e803d;}
 

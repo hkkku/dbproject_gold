@@ -124,11 +124,11 @@
       <section class="contents ours">
         <div class="center clear">
           <div class="title">
-            <h2>WEB & APP PREVIEW</h2>
+            <h2>CATALOGUE PREVIEW</h2>
           </div>
           <div class="fashionBox men">
             <div class="fashionTxt">
-              <h2><em>WEB</em> PROJECTS</h2>
+              <h2><em>PRODUCT</em> DETAIL</h2>
               <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
               </p>
@@ -164,7 +164,7 @@
           <!-- end of web project -->
           <div class="fashionBox women">
             <div class="fashionTxt">
-              <h2><em>APP</em> PROJECTS</h2>
+              <h2><em>PRODUCT</em> DETAIL</h2>
               <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
               </p>
