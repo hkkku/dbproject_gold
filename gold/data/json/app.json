@@ -1,52 +1,22 @@
 [
     {
-        "appnum": "5",
-        "apptitle": "Store styq",
-        "appserial": "GOLDAPP0105",
-        "appdesc": "Vivamus rutrum ligula ullamcorper sem volutpat, quis efficitur sapien volutpat. Etiam et justo mattis, vestibulum orci id, tempor nunc. Proin sodales nibh nec leo hendrerit, at ultrices lacus consequat. Duis aliquet nisi id tellus mattis, vel vehicula arcu sodales. Quisque ultricies efficitur leo, non consectetur ex consectetur nec. Vivamus convallis dictum interdum. Nulla pulvinar dapibus nisl, ac suscipit nisi hendrerit non. In hac habitasse platea dictumst. Aliquam erat volutpat.\"",
-        "appimg": "app_main_004.png",
-        "appthumb": "app_004.png",
-        "appclient": "GOLDAPP0105",
-        "appregist": "2021-02-04"
-    },
-    {
-        "appnum": "4",
-        "apptitle": "Store",
-        "appserial": "GOLDAPP0104",
-        "appdesc": "Quisque imperdiet lobortis commodo. Nunc porta in tortor sit amet fermentum. Morbi mi arcu, dignissim id libero non, tempus scelerisque eros. Curabitur placerat condimentum facilisis. Praesent ac bibendum nisi, at imperdiet justo. Morbi accumsan turpis massa, nec ultrices elit fringilla vitae. Curabitur vulputate dolor at odio pretium varius. Fusce nec elit eu ante placerat pretium. Integer diam felis, congue sit amet maximus vel, ullamcorper dictum libero. Aenean varius blandit mauris, vel tincidunt leo interdum maximus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at erat molestie purus sollicitudin feugiat. Sed et velit eget justo interdum tempus nec eu magna. Proin commodo malesuada metus ac aliquam. In mollis, ipsum quis facilisis ultrices, <br \/>\r\nurna lectus aliquam nulla, id bibendum metus sapien eget sapien. Nam malesuada, erat id pretium fringilla, justo nunc fermentum enim, ac pellentesque mauris magna eu sem.",
-        "appimg": "app_main_008.jpg",
-        "appthumb": "app_008.jpg",
-        "appclient": "Tesla",
-        "appregist": "2021-02-04"
-    },
-    {
-        "appnum": "3",
-        "apptitle": "title",
-        "appserial": "GOLDAPP0103",
-        "appdesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi facilisis ullamcorper aliquam. Sed posuere neque quis purus viverra, ut malesuada felis auctor. Quisque augue arcu, porttitor ac mi vitae, volutpat iaculis eros. Vivamus gravida, dui a faucibus gravida, ligula lacus venenatis libero, quis pulvinar purus mi id lorem. Quisque eu urna eu nibh placerat accumsan. Suspendisse vitae lacus ut dui luctus imperdiet a ut ex. Nulla lobortis tellus sed lorem eleifend, at eleifend orci interdum. Phasellus elit tellus, auctor in arcu ac, imperdiet cursus risus. Nam porttitor mauris viverra commodo pharetra.\"",
-        "appimg": "app_main_002.jpg",
-        "appthumb": "app_002.jpg",
-        "appclient": "GOLDAPP0103",
-        "appregist": "2021-02-04"
-    },
-    {
         "appnum": "2",
-        "apptitle": "Portfolio",
-        "appserial": "GOLDAPP0102",
-        "appdesc": "Nam ac nisi quis justo elementum volutpat. Sed efficitur pellentesque luctus. Vestibulum vitae tortor sed magna condimentum hendrerit at vel mauris. Aliquam ac porta augue. Nulla justo tellus, gravida vitae gravida eu, aliquam quis odio. Aliquam et lacus mauris. Cras vel pellentesque arcu. Proin sit amet nisi ut nisl pulvinar convallis. Etiam nec commodo dui, in hendrerit eros. Morbi mollis, arcu fringilla vulputate aliquam, nulla nisi rutrum nisl, eu accumsan sapien est a augue. Vivamus sagittis cursus tristique. Curabitur pharetra mauris nisi, at volutpat diam cursus sit amet. <br \/>\r\nSed viverra ligula arcu, nec tristique lorem porttitor a. Integer ullamcorper ex ac nisi scelerisque, ac efficitur sem dignissim. Aliquam neque quam, aliquam eu sodales mollis, auctor eu felis.",
-        "appimg": "app_main_006.png",
-        "appthumb": "app_006.png",
-        "appclient": "folio",
-        "appregist": "2021-02-04"
+        "apptitle": "\uc544\ub08c\uc788\uc774 \ud0a4\uc6b0\ub294 \ub098\ubb342",
+        "appserial": "002",
+        "appdesc": "\uc544\ub08c\uc788\uc774 \ud0a4\uc6b0\ub294 \ub098\ubb34\"",
+        "appimg": "\ub300\uc9c0 1 \uc0ac\ubcf8 2@3x-100.jpg",
+        "appthumb": "app_thumb_001.jpg",
+        "appclient": "002",
+        "appregist": "2021-07-20"
     },
     {
         "appnum": "1",
-        "apptitle": "Tesla Model  X",
-        "appserial": "GOLDAPP0101",
-        "appdesc": "Aenean non leo eleifend, bibendum lectus eu, aliquet sem. Ut volutpat sem ligula, in bibendum odio venenatis ac. Sed sit amet tincidunt est. Pellentesque nibh libero, malesuada vitae lacus ac, fringilla faucibus velit. Duis vel imperdiet metus. Vivamus sed nibh fermentum lectus laoreet luctus. Nullam nisi dolor, commodo maximus vulputate id, tempor non lorem. Maecenas mattis, risus non placerat pulvinar, nibh neque porta tellus, tincidunt consequat eros ex eget orci. Duis mattis neque orci, id dictum lacus faucibus nec. Mauris id purus aliquet, porta metus at, sollicitudin ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec justo sit amet dui faucibus bibendum id a nisi. Mauris vulputate nec elit in efficitur. Nunc ut sodales risus. Etiam posuere risus sit amet elit egestas, vitae tincidunt mauris sagittis. Proin eget massa eleifend dolor pretium imperdiet.",
-        "appimg": "app_main_001.png",
-        "appthumb": "app_001.png",
-        "appclient": "testcli",
-        "appregist": "2021-02-04"
+        "apptitle": "\uc544\ub08c\uc788\uc774 \ud0a4\uc6b0\ub294 \ub098\ubb34",
+        "appserial": "001",
+        "appdesc": "\uc544\ub08c\uc788\uc774 \ud0a4\uc6b0\ub294 \ub098\ubb34",
+        "appimg": "\ub300\uc9c0 1 \uc0ac\ubcf8@3x-100.jpg",
+        "appthumb": "app_thumb_002.jpg",
+        "appclient": "001",
+        "appregist": "2021-07-20"
     }
 ]

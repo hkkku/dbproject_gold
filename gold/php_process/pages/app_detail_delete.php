@@ -33,7 +33,6 @@
   <script>
     alert('어플리케이션 상품 정보를 삭제했습니다.');
     location.href='/gold/pages/app/app.php'
-    location.reload();
   </script>
   ";
 ?>
